@@ -1,0 +1,78 @@
+============
+Data Sources
+============
+
+The data needs assessment defined all the data needed for generation of the forest products,
+which entailed the proposed REDD+ models to achieve the envisioned outputs.
+The models specifications are outlined in the objectives section. 
+For their successive computation and analysis, the data needs assessed are as shown in the table below.
+
+-------------------------------------------------------
+Forest Product Data Source
+-------------------------------------------------------
+
++------------------+-----------+---------+--------+------------------+
+| Sensor/Dataset   | Temporal  | Spatial | Extent | License          |
++==================+===========+=========+========+==================+
+| Landsat 4,5,7,8  | 2000-2020 | 30 m    | Global | `Public Domain`_ |
++------------------+-----------+---------+--------+------------------+
+| Sentinel 2       | 2000-2020 | 10 m    | Global | `Public Domain`_ |
++------------------+-----------+---------+--------+------------------+
+| Sentinel 1       | 2000-2020 | 10 m    | Global | `Public Domain`_ |
++------------------+-----------+---------+--------+------------------+
+
+
+.. note::
+    The `Natural Earth Administrative Boundaries`_ provided in TrofMIS  
+    are in the `public domain`_. The boundaries and names used, and the 
+    designations used, in TrofMIS - IGAD Region do not imply official endorsement or 
+    acceptance by Conservation International Foundation, or by its partner 
+    organizations and contributors.
+
+    If using TrofMIS for official purposes, it is recommended that users 
+    choose an official boundary provided by the designated office of their 
+    country.
+
+.. _Natural Earth Administrative Boundaries: http://www.naturalearthdata.com
+
+.. _Public Domain: https://creativecommons.org/publicdomain/zero/1.0
+
+-------------------------------------------------------
+Forest Product Coding
+-------------------------------------------------------
+The generated forest products includes:
+	- Forest Canopy
+	- Forest Change
+	- Forest Alerts
+	- Forest Carbon Emmissions
+
+Were generated automatically in Google earth engine as highlighted in the methodology section.
+These products are in GeoTiff format, and have a range of values of which they were classfied with. 
+These range of values are considered as the data coding values used to classify the outputs for visualisation. 
+
+
+Forest Canopy
+-------------------------------------------------------
++------------------+-----------+---------+
+| Sensor/Dataset   | Min       | Max     | 
++==================+===========+=========+
+| Non Forest       | 0         | 30      | 
++------------------+-----------+---------+
+| Open Canopy      | 30        | 45      | 
++------------------+-----------+---------+
+| Moderate Canopy  | 45        | 65      | 
++------------------+-----------+---------+
+| Dense Canopy     | 65        | 100     | 
++------------------+-----------+---------+
+
+Forest Change
+-------------------------------------------------------
++------------------+-----------+---------+
+| Sensor/Dataset   | Min       | Max     | 
++==================+===========+=========+
+| Stable           | 1         | 1       | 
++------------------+-----------+---------+
+| Loss             | 2         | 2       | 
++------------------+-----------+---------+
+| Gains            | 3         | 3       | 
++------------------+-----------+---------+

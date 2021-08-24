@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Calculate Vegetation Loss/Gain indicators &mdash; Tropical Forest Monitoring and Surveilance System 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Calculate Forest Change" href="Calculate_Forestloss.html" />
+    <link rel="prev" title="SDG 15.3.1 indicator" href="Calculate_SDG.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: moss" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tropical Forest Monitoring and Surveilance System
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Preamble</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/general_information.html">General Information</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#get-in-touch-with-the-team">Get in touch with the team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#authors">Authors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#aknowledgement">Aknowledgement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#license">License</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data Sources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-data-source">Forest Product Data Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-coding">Forest Product Coding</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy">Forest Canopy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-change">Forest Change</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/faq.html">Frequently asked questions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#installation-and-use-of-trofmis-service">Installation and use of TrofMIS Service</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-i-be-able-to-download-the-outputs-from-the-system-how-will-i-visualize-the-outputs">Will I be able to download the outputs from the system? How will I visualize the outputs?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#do-i-need-to-download-a-32-bit-or-64-bit-version-of-qgis">Do I need to download a 32-bit or 64 bit version of QGIS?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#system-usage">System Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-i-be-able-to-use-the-system-if-i-am-not-registred">Will I be able to use the system if I am not registred?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#datasets">Datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#when-will-you-update-datasets-for-the-current-year">When will you update datasets for the current year?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#is-there-an-option-to-download-the-original-data">Is there an option to download the original data?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-the-toolbox-support-higher-resolution-datasets">Will the toolbox support higher resolution datasets?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#methods">Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-was-the-default-time-period-for-the-analysis-determined">How was the default time period for the analysis determined?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#forest-canopy">Forest Canopy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-considered-a-forest">What is considered a forest?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#how-are-the-forest-canopy-results-interpreted">How are the Forest Canopy Results Interpreted?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#canopy-disturbance">Canopy Disturbance</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-the-canopy-disturbance-product">What is the Canopy Disturbance product?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#carbon-emmission">Carbon Emmission</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-the-product-carbon-emmission">What is the product Carbon Emmission?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#forest-alerts">Forest Alerts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-will-the-user-receive-the-outputs">How will the user receive the outputs?</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Forest Product Background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Canopy%20Density.html">Forest Canopy Density (FCD)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Canopy%20Density.html#computation-of-fcd-outputs-in-the-system">Computation of FCD outputs in the System</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Canopy%20Disturbance.html">Canopy Disturbance</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Carbon%20Emission.html">Forest Carbon Flux Emmission</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html">Vegetation Loss/Gain hotspots</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Web Service Guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Service_Guide.html">Serivice Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Service_Guide.html#misland-site-tour">MISLAND Site Tour</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Service_Guide.html#registration-and-log-in">Registration and Log in</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_SDG.html">SDG 15.3.1 indicator</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_SDG.html#compute-sdg-15-3-1-sub-indicators">Compute SDG 15.3.1 Sub-indicators</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Calculate_SDG.html#land-productivity">Land Productivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Calculate_SDG.html#landcover-change">Landcover Change</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Calculate_SDG.html#carbon-stocks">Carbon Stocks</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_SDG.html#compute-sdg-15-3-1-indicator">Compute SDG 15.3.1 Indicator</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Calculate Vegetation Loss/Gain indicators</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_Forestloss.html">Calculate Forest Change</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_Forestloss.html#computing-forest-loss">Computing Forest Loss</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_Forestloss.html#computing-forest-fires">Computing Forest Fires</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_Medalus.html">Calculating Sensitivity to Desertification (MEDALUS)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_Medalus.html#calculating-individual-quality-indicators">Calculating Individual Quality Indicators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate_Medalus.html#calculate-the-environmental-sensitivity-areas-index-esai">Calculate the Environmental Sensitivity Areas Index(ESAI)</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Download_results.html">Exporting Outputs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Download_results.html#export-map">Export Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Download_results.html#export-chart">Export Chart</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Download_data.html">Download data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Download_data.html#downloading-raster-data">Downloading Raster Data</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tropical Forest Monitoring and Surveilance System</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Calculate Vegetation Loss/Gain indicators</li>
+    
+    
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="calculate-vegetation-loss-gain-indicators">
+<h1>Calculate Vegetation Loss/Gain indicators<a class="headerlink" href="#calculate-vegetation-loss-gain-indicators" title="Permalink to this headline">¶</a></h1>
+<p>To compute vegetation loss/gain on the service platform,</p>
+<ol class="arabic simple">
+<li><p>On the services menu, select the ‘VEGETATION GAIN/LOSS’ option</p></li>
+</ol>
+<div class="align-center figure" id="id1">
+<a class="reference internal image-reference" href="../_images/vegetation_gain_loss.png"><img alt="Vegetation gain/loss service" src="../_images/vegetation_gain_loss.png" style="width: 790px; height: 45px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Finding the forest change service</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>If the selected region is a large area, the user will be prompted to select a smaller region. Select a smaller region on the ‘Select Country’ dialog on the top left conner of the dashboard</p></li>
+</ol>
+<div class="align-center figure" id="id2">
+<a class="reference internal image-reference" href="../_images/vegetation_gain_loss1.png"><img alt="select country" src="../_images/vegetation_gain_loss1.png" style="width: 780px; height: 206px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">seleting a region to compute vegetation gain/loss</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Selection of a smaller regin optimizes the computation time and ensures that the service does not time-out. If a large area is selected, users will be notifed by a pop up on the top right conner of the site. Computation of large ares is still under development and will be available in later versions of the service.</p>
+</div>
+<div class="align-center figure" id="id3">
+<a class="reference internal image-reference" href="../_images/vegetation_gain_loss2.png"><img alt="warning" src="../_images/vegetation_gain_loss2.png" style="width: 360px; height: 99px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">Pop-up notification when large area is selected.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Next, select the start and end period for which the vegetation loss and gain will be computed.</p></li>
+</ol>
+<div class="align-center figure" id="id4">
+<a class="reference internal image-reference" href="../_images/vegetation_gain_loss3.png"><img alt="vegetation gain/loss" src="../_images/vegetation_gain_loss3.png" style="width: 350px; height: 115px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Vegetation gain/loss outputs</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>To compute vegetation indices using Landsat derived vegetation indices,</p>
+<ol class="arabic simple">
+<li><p>On the services menu, select the ‘VEGETATION GAIN/LOSS’ option, and under the ‘Source’ dropdown menu, select Landsat 7 option</p></li>
+</ol>
+<div class="align-center figure" id="id5">
+<a class="reference internal image-reference" href="../_images/landsat.png"><img alt="Vegetation gain/loss service" src="../_images/landsat.png" style="width: 400px; height: 187px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">Selecting the Landsat-derived vegetation index option</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>On the ‘Veg index’ dropdown, select the vegetation index to compute and select the start and end period</p></li>
+</ol>
+<div class="align-center figure" id="id6">
+<a class="reference internal image-reference" href="../_images/vegindex.png"><img alt="select vegetation index" src="../_images/vegindex.png" style="width: 428px; height: 195px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Choosing the vegetation index to compute</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<p>The map and computed statistics will be displayed on the map panel and summary pannel respectively.</p>
+<div class="align-center figure" id="id7">
+<a class="reference internal image-reference" href="../_images/landsat_vegetation_loss.png"><img alt="register" src="../_images/landsat_vegetation_loss.png" style="width: 712px; height: 332px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 25 </span><span class="caption-text">Landsat derived vegetation loss and gain output</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Calculate_Forestloss.html" class="btn btn-neutral float-right" title="Calculate Forest Change" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Calculate_SDG.html" class="btn btn-neutral float-left" title="SDG 15.3.1 indicator" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, LocateIT Kenya Ltd.
+      <span class="lastupdated">
+        Last updated on True.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

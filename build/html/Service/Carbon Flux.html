@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Compute Carbon Flux &mdash; Tropical Forest Monitoring and Surveilance System 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Compute Forest Alerts" href="Forest%20Alerts.html" />
+    <link rel="prev" title="Computing Forest Change" href="Forest%20Change.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: moss" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tropical Forest Monitoring and Surveilance System
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Preamble</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/general_information.html">General Information</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#get-in-touch-with-the-team">Get in touch with the team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#authors">Authors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#aknowledgement">Aknowledgement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#license">License</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data Sources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-data-source">Forest Product Data Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-coding">Forest Product Coding</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy">Forest Canopy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-change">Forest Change</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/faq.html">Frequently asked questions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#installation-and-use-of-trofmis-service">Installation and use of TrofMIS Service</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-i-be-able-to-download-the-outputs-from-the-system-how-will-i-visualize-the-outputs">Will I be able to download the outputs from the system? How will I visualize the outputs?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#do-i-need-to-download-a-32-bit-or-64-bit-version-of-qgis">Do I need to download a 32-bit or 64 bit version of QGIS?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#system-usage">System Usage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-i-be-able-to-use-the-system-if-i-am-not-registred">Will I be able to use the system if I am not registred?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#datasets">Datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#when-will-you-update-datasets-for-the-current-year">When will you update datasets for the current year?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#is-there-an-option-to-download-the-original-data">Is there an option to download the original data?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-the-toolbox-support-higher-resolution-datasets">Will the toolbox support higher resolution datasets?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#methods">Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-was-the-default-time-period-for-the-analysis-determined">How was the default time period for the analysis determined?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#forest-canopy">Forest Canopy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-considered-a-forest">What is considered a forest?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#how-are-the-forest-canopy-results-interpreted">How are the Forest Canopy Results Interpreted?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#canopy-disturbance">Canopy Disturbance</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-the-canopy-disturbance-product">What is the Canopy Disturbance product?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#carbon-emmission">Carbon Emmission</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Introduction/faq.html#what-is-the-product-carbon-emmission">What is the product Carbon Emmission?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#forest-alerts">Forest Alerts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-will-the-user-receive-the-outputs">How will the user receive the outputs?</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Forest Product Background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Canopy%20Density.html">Forest Canopy Density (FCD)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Canopy%20Density.html#fcd-data-encoding">FCD Data Encoding</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Canopy%20Disturbance.html">Canopy Disturbance</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Carbon%20Emission.html">Forest Carbon Flux (Carbon Emmission)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html">Vegetation Loss/Gain hotspots</a></li>
+</ul>
+<p class="caption"><span class="caption-text">TroFMIS System Guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Service%20Guide.html">TrofMIS Service Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Service%20Guide.html#system-selection">System Selection</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Canopy%20Density.html">Computing Forest Canopy Density</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Change.html">Computing Forest Change</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Compute Carbon Flux</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html">Compute Forest Alerts</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tropical Forest Monitoring and Surveilance System</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Compute Carbon Flux</li>
+    
+    
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="compute-carbon-flux">
+<h1>Compute Carbon Flux<a class="headerlink" href="#compute-carbon-flux" title="Permalink to this headline">¶</a></h1>
+<p>The canopy disturbance/forest change are generated from the simple image difference acquired from the conmparison of
+the Forest Canopy Density products.</p>
+<p>The disturbance are generated from the computation of canopy distrubance and comparison between the subsequent years.</p>
+<p>The computation is generated annually from 2016 as the reference years for the forest canopy.</p>
+<p>The outputs visualises the areas that are experiencing forest canopy drops or the quality of forest vegetation
+is reducing, and these are termed as Forest Canopy Disturbance or Loss.</p>
+<p>The areas that have increased the quality of vegetation are considered as areas with RegrowthGain,
+while the areas with unchanged pixels are considerered to be stable forest areas.</p>
+<p>The visualised outputs could be used to inform on generally the management practice to be applied in a give forest zone.
+A sharp decline of vegetation quality shows that the area is prone to negative anthropogenic activities, that affect the
+quality of tree cover generating throughout the season.</p>
+<p>The figure below shows the summary logic of computing the forest changes/canopy disturbance.</p>
+<div class="align-center figure" id="id1">
+<a class="reference internal image-reference" href="../_images/Canopy_Disturbance.png"><img alt="service schema" src="../_images/Canopy_Disturbance.png" style="width: 351px; height: 341px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Summary of computation of Forest Canopy Disturbance</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Forest%20Alerts.html" class="btn btn-neutral float-right" title="Compute Forest Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Forest%20Change.html" class="btn btn-neutral float-left" title="Computing Forest Change" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, LocateIT Kenya Ltd.
+      <span class="lastupdated">
+        Last updated on True.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
