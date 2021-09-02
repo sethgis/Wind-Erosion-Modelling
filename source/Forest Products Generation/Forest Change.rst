@@ -2,22 +2,9 @@
 ***************************************************
 Forest Change 
 ***************************************************
-The canopy disturbance/forest change are generated from the simple image difference acquired from the conmparison of 
-the Forest Canopy Density products.
+Forest change or canopy disturbance mapping was based on analysing the canopy changes between a reference year and an analysis year to map out areas that are deforested, stable or as regrown (gain areas).
+This method ensured a clear identification of disturbed areas within the analysis year with reference to the base year. The output visualised changes that occurred between the consequent years. The figure below summarises the steps in analysing forest change\canopy disturbed areas.
 
-The disturbance are generated from the computation of canopy distrubance and comparison between the subsequent years.
-
-The computation is generated annually from 2016 as the reference years for the forest canopy.
-
-The outputs visualises the areas that are experiencing forest canopy drops or the quality of forest vegetation
-is reducing, and these are termed as Forest Canopy Disturbance or Loss.
-
-The areas that have increased the quality of vegetation are considered as areas with Regrowth\Gain,
-while the areas with unchanged pixels are considerered to be stable forest areas.
-
-The visualised outputs could be used to inform on generally the management practice to be applied in a give forest zone.
-A sharp decline of vegetation quality shows that the area is prone to negative anthropogenic activities, that affect the 
-quality of tree cover generating throughout the season.
 
 The figure below shows the summary logic of computing the forest changes/canopy disturbance.
 
