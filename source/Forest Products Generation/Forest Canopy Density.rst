@@ -2,10 +2,8 @@
 ***************************************************
 Forest Canopy Density (FCD)
 ***************************************************
-The FCD mapping applied the Forest Canopy Density Model (FCD), to compute and generate the various 
-forest canopy densities within the selected forest of interest.
-The FCD computation considered the fusion of Advanced Vegetation Index (AVI) and the Scaled Shadow Index (SSI) as hsown in the 
-equation below.
+The FCD maps in specified areas of interest were generated using the Forest Canopy Density Model (FCD algorithm) as applied by (Rikimaru, et al, 2002). Our approach made slight modification to the original FCD technique by excluding Principal Component Analysis (PCA) which is computational intensive over large areas or when subjected to high dimensional data. 
+The modified FCD approach can be expressed as:
 
 .. math::
  FCD=√(AVI×SSI+1)-1 
