@@ -11,23 +11,23 @@ to yield these products.
 	- Forest canopy disturbance alert (using both optical and active sensors)
 	- TrofMIS generation/derivation of RADAR Forest Cover Loss Alerts, Tree Cover Density, Forest Canopy Disturbance Monitoring products on selected tropical forests for REDD+ reporting once new data is availableTraining materials (user manual) on the developments of the data acquisition, analysis and generation of final products.
 	
-The goal is to anable the various key players in REDD+ reporting while account for the amount of carbon stock emmitted as well as retained.
+The goal is to anable the various key players in REDD+ reporting while accounting for the amount of carbon stock emmitted as well as the carbon retained.
 
 
 
 Get in touch with the team
 --------------------------
-Contact the `ICPAC <https://www.icpac.net/>`_ for any information, revision and contribution on the tropical forest.
-For consultancy services, you can contact `Locate IT <https://locateit.co.ke/>`_ Limited on the same implementation.
+Contact the `ICPAC <https://www.icpac.net/>`_ for any information, revision and contribution on the tropical forest monitoring and surveilance system.
+
 
 Authors
 -------
-The TroFMIS-IGAD is a project by the IGAD under the Global Monitoring for Environment and Security and Africa(GMES & Africa)
+The TroFMIS-IGAD is a project by the ICPAC under the Global Monitoring for Environment and Security and Africa(GMES & Africa)
 framework that is co-funded by the African Union and the European Union.
 
-Contributors to the documentation and to MISLAND-North Africa 
-include Ken Kemuchie, Viola Otieno, Eugine,
-Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Seth Nyawacha, Collins Asega, Derick Ongeri, Risper Mutinda, Morris Mwaura, and Simon Ndarau.
+Contributors to the documentation
+include Mr. Kenneth Kemuchie, Ms. Viola Otieno, Mr. Eugine Kayijamahe,
+Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Collins Asega, Mr. Derick Ongeri, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
 	.. image:: /_static/Images/partners.png
 	   :height: 94
@@ -42,7 +42,7 @@ Special appreciation to the `ICPAC <https://www.icpac.net/>`_ team for the great
 contribution to refine the methodologies. 
 Appreciation to the countries patners who were part of the great work in providing feedback on the products generated.
 The `JRC <https://www.icpac.net/>`_ team provided good reference in developing the forest products for visualisation as well as a 
-base reference for more so forest monitoring alerts using Sentinel 2 sensors.
+base reference for more-so forest monitoring alerts using Sentinel 2 sensors.
 
 
 License
