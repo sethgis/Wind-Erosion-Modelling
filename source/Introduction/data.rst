@@ -3,7 +3,7 @@ Data Sources
 ============
 
 The data needs assessment defined all the data needed for generation of the forest products,
-which entailed the proposed REDD+ models to achieve the envisioned outputs.
+which entailed the proposed REDD+ models to achieve the envisioned forest products and statistical information.
 The models specifications are outlined in the objectives section. 
 For their successive computation and analysis, the data needs assessed are as shown in the table below.
 
@@ -40,15 +40,15 @@ Forest Product Data Source
 -------------------------------------------------------
 Forest Product Coding
 -------------------------------------------------------
-The generated forest products includes:
-	- Forest Canopy
-	- Forest Change
-	- Forest Alerts
-	- Forest Carbon Emmissions
+The generated forest products included:
+	- Forest Canopy Map
+	- Forest Change Map
+	- Forest Alerts Map
+	- Forest Carbon Flux Map
 
 Were generated automatically in Google earth engine as highlighted in the methodology section.
-These products are in GeoTiff format, and have a range of values of which they were classfied with. 
-These range of values are considered as the data coding values used to classify the outputs for visualisation. 
+These products are in GeoTiff format, and have a range of values of which they were classfied with, and produced with their associated statistical information. 
+These range of values were considered as the data coding values used to classify the outputs for visualisation. 
 
 
 Forest Canopy
@@ -72,7 +72,29 @@ Forest Change
 +==================+===========+=========+
 | Stable           | 1         | 1       | 
 +------------------+-----------+---------+
-| Loss             | 2         | 2       | 
+| Gain             | 2         | 2       | 
 +------------------+-----------+---------+
-| Gains            | 3         | 3       | 
+|Loss            | 3         | 3        | 
 +------------------+-----------+---------+
+
+Carbon Flux
+-------------------------------------------------------
++------------------+-----------+---------+
+| Sensor/Dataset   | Min       | Max     | 
++==================+===========+=========+
+| Stable           | 1         | 1       | 
++------------------+-----------+---------+
+| Gain             | 2         | 2       | 
++------------------+-----------+---------+
+|Loss            | 3         | 3        | 
++------------------+-----------+---------+
+
+
+Forest Alerts
+-------------------------------------------------------
++------------------+-----------+---------+
+| Sensor/Dataset   | Min       | Max     | 
++==================+===========+=========+
+| Loss             | 0.5 ha    | Inf     | 
++------------------+-----------+---------+
+
