@@ -56,7 +56,7 @@ the non forest areas were capped at below 30 percent as shown in the table below
 To compute the FCD output, the figure below summarises the steps applied in the computation.
 
 .. figure:: ../_static/Images/fcd_flowchart.png
-    :width: 351
+    :width: 355
     :align: center
     :height: 341
     :alt: service schema
