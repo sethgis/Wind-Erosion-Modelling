@@ -1,15 +1,17 @@
 =====================
 General Information
 =====================
-TrofMIS is a surveilance system that is based on monitoring the Tropical Montane Forest in the IGAD region. The Tropical montane monitoring is part
-of the global goal in reducing carbon emission and consequently exponentially reducing climate change. 
-The tropical forest monitoring is keen on applying the REDD+ monitoring guidelines outlined by UNCCD on tropical forest and carbon emission monitoring
-to yield these products.
+TroFMIS is a surveilance system that is based on monitoring the Tropical Montane Forest in the IGAD region. The Tropical montane forest monitoring is part
+of the global goal towards reduction of carbon emission, while enhancing verifiable modes for REDD+ reporting. 
+TroFMIS is keen on applying REDD+ monitoring guidelines outlined by UNCCD on tropical forest and carbon emission reporting. Thus, the system has intergrated these
+products.
 
-	- Forest cover status (tree cover density mask for a reference year 2015) maps
-	- Forest cover change (annual change 2016-2020) maps
-	- Forest canopy disturbance alert (using both optical and active sensors)
-	- TrofMIS generation/derivation of RADAR Forest Cover Loss Alerts, Tree Cover Density, Forest Canopy Disturbance Monitoring products on selected tropical forests for REDD+ reporting once new data is availableTraining materials (user manual) on the developments of the data acquisition, analysis and generation of final products.
+	- Forest cover status (tree cover density mask for a reference year 2016) maps
+	- Forest canopy changes (annual change 2016-2020) maps
+	- Forest canopy changes from Reference year 2016-2020 maps
+	- Forest canopy disturbance monitoring using Sentinel 2 -  Radar Images
+	
+TrofMIS generation/derivation of RADAR Forest Cover Loss Alerts, Tree Cover Density, Forest Canopy Disturbance Monitoring products on selected tropical forests for REDD+ reporting once new data is availableTraining materials (user manual) on the developments of the data acquisition, analysis and generation of final products.
 	
 The goal is to anable the various key players in REDD+ reporting while accounting for the amount of carbon stock emmitted as well as the carbon retained.
 
