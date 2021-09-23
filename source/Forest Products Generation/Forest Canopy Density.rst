@@ -2,43 +2,45 @@
 ***************************************************
 Forest Canopy Density (FCD)
 ***************************************************
-The FCD maps in specified areas of interest were generated using the Forest Canopy Density Model (FCD algorithm) as applied by (Rikimaru, et al, 2002). Our approach made slight modification to the original FCD technique by excluding Principal Component Analysis (PCA) which is computational intensive over large areas or when subjected to high dimensional data. 
+The FCD products in specified forests were generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
+Our approach made slight modification to the original FCD technique by excluding Principal Component Analysis (PCA),
+which is computational intensive over large areas or when done through to high resolution data. 
 The modified FCD approach can be expressed as:
 
 .. math::
+
  FCD=√(AVI×SSI+1)-1 
- :label: eq_a
+ :label: FCD model
 
 
-The Advanced Vegetation Index (AVI), like many vegetation index, gives precendence to the areas with healthier vegetation, with
-canopy covered areas geeting high values as compraed to the low vegetation or bare areas. The AVI was computed as shown in teh equation below.
+Where, the Advanced Vegetation Index (AVI), like many vegetation index, gives precedence to the areas with healthier vegetation as
+compraed to the areas with scarce or novegetation. The AVI was computed as shown in the equation below.
 
 .. math::
- AVI=  ((NIR+1)*(65536 -Red))*1/3
- :label: eq_b
+
+ AVI =  ((NIR+1)*(65536 -Red))*1/3
+ :label: AVI model
 
 
 
-The AVI was directly fused with Scaled Shadow Index (SSI), to yield the ultimate delineation of forested areas
+The AVI was directly fused with Scaled Shadow Index (SSI), to yield the ultimate forest canopy densities.
 i.e. areas with canopy cover while segregating areas with very little or no vegetation. 
-SSI applied the numerical intergration of Blue and Green bands to identify shadow covered areas as shown below before combined to 
-the FCD equation Refer to :eq:`eq_a`.
-
+SSI applied the numerical intergration of Blue and Green bands to identify shadow covered areas as shown below.
 
 .. math::
  SSI=(256-Blue)*(256-Green)*(256-Red)/3
- :label: eq_c	
+ :label: SSI model	
 	
 
 
 
 FCD Data Encoding
 =============================
-The ultimate output of the FCD as a product was rescaled tp percentage using a linear regression modell.
-The values after being transformned into percentage, were reclassified into various Forest Canopy classes.
+The ultimate output of the FCD product was rescaled to percentage, using a linear regression modell.
+The values were later reclassified into various Forest Canopy classes.
 The percentage output values of this equation geovisualised areas of Dense Canopy, Moderate Canopy 
 and Open Canopy between 100 to 65, 65 to 45, 45 to 30 respectively, while 
-the non forest areas were capped at below 30 percent as shown in the table below.
+the Non- Forest areas were capped at below 30 percent as shown in the table below.
 
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min       | Max     | 
@@ -62,7 +64,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
     :alt: service schema
     :figclass: align-center
 
-    Summary of computation of Forest Canopy Density (FCD)
+    FCD computation summary.
 
 .. toctree::
    :maxdepth: 3
