@@ -2,7 +2,9 @@
 ***************************************************
 Forest Canopy Change 
 ***************************************************
+
 Forest Canopy Changes were generated using two routes.
+
     - Changes based on the Reference year i.e 2016 (Reference Product).
     - Changes based on the difference between the consquent year (Annual Product)
 
