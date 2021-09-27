@@ -2,12 +2,12 @@
 ***************************************************
 Forest Carbon Flux (Carbon Emission)
 ***************************************************
-The FCD products are reclassified into majorly 2 classes annually. The classified product (Forest and Non Forest areas) are then used to compute the difference, and highlight areas that deforestation or regrowth has taken place, this products is what is reffered to as carbon flux product in the TroFMIS. 
-Carbon flux product provide information on estimated carbon transferred from the above ground pool to the atmosphere or the vice versa (sequestration) when afforestation/reforestation occurs.
+The FCD products are reclassified into majorly 2 classes. The classified products (Forest and Non Forest areas) are then used to compute the difference, and highlight areas that deforestation or regrowth has taken place, this product is what is reffered to as carbon flux product in TroFMIS. 
+Carbon flux product provides information on estimated carbon transferred from the above ground pool to the atmosphere, or the vice versa (sequestration) when afforestation/reforestation occurs.
 The above ground biomass (AGB) stocks in the Tropical Forests of the IGAD region, are estimated based on the 2006 IPCC guidelines. For Tropical rain forests, the AGB is estimated at 310 Mg Biomass/ha. 
 Using the methodological guidelines from IPCC, this is converted to 145.7 Mg Carbon/ha (A carbon factor of 0.47 is used) and translated to 534 Mg CO2eq/ha 
 (the molecular formula of CO2 is used). 
-Based on the above Emission Factor, and the deforested forest areas (Activity Data) between two time intervals, Emission estimates (E) are computed as shown in the formula below.
+Based on the above Emission Factor, and the deforested forest areas (Activity Data), between two time intervals, Emission estimates (E) are computed as shown in the formula below.
 
 .. math::
  E = AD*EF	 
