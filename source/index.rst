@@ -15,10 +15,9 @@ The IGAD Climate Prediction and Applications Centre (ICPAC) under their Global M
 and Security & Africa (GMES & Africa) Support Programme, intended to implement Earth Observation 
 System for Tropical Forest Surveillance, Monitoring and Assessment (TFSMA) Service. 
 The application’s main aim was to use Earth Observation methods/algorithms and tools to generate geospatial 
-data products for tropical forest monitoring. The intension of these products, was to necessitite REDD+ monitoring 
-in response to African needs in water, natural resources, marine, coastal areas and moreso carbon flux monitoring.
-The system and products align with the global goal to manage the environment, mitigate climate change and ensure civil security.
-
+data products for tropical forest monitoring. The intension of these products, was to necessitate REDD+ monitoring 
+in response to African needs in water, natural resources, marine, coastal areas and moreso carbon emmissions.
+The system and products align with the global goal towards achievement of a sustainable environment, mitigation of climate change effects and ensurance of civil security.
 
 
 
