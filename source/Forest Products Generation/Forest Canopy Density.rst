@@ -1,3 +1,10 @@
+.. figure:: ../_static/Images/trofmis.png
+    :width: 300
+    :align: center
+    :height: 400
+    :alt: service schema
+    :figclass: align-center
+
 
 ***************************************************
 Forest Canopy Density (FCD)
