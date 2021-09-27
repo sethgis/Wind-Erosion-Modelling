@@ -1,22 +1,24 @@
-=============================
-Forest Disturbance - Radar 
-=============================
+==========================================================
+Forest Disturbance and Surveilance - Radar 
+==========================================================
 Forest Disturbance, also Degradation, which is a systematic process where the forest loses its capacity of providing the goods and services, due to continuous extraction of trees and disruption of forest ecosystem Ultimately leading to deforestation. Degradation can also can also be attributed to continuous loss of forest quality overtime.
 Forest Degradation was analysed through the application of dual approach, including, the use of Optical sensor with 
-	- Bivariate Radar Application.
- 	- Normalized Burnt Ratio (NBR) can also be applied. 
+	- Bivariate Radar Based Method.
+ 	- Optical Based Method. 
 	
 
-Radar Alerts
-=============================
+Forest Disturbance Using (Bivariate Method).
+==========================================================
 Radar images are capable of transcending the cloud cover challenge, an attribute that normally lacks with the optical sensors. The canopy disturbance monitoring using Radar images is thus considered superior due to this ability.
 To compute the canopy disturbance using the Radar approach, the bivariate change method is applied, in detecting the forest canopy disturbance. 
 The bivariate method captures any form of change occurring within a forest that could otherwise, have been omitted from a single look observation using either VV or VH.
 Based on the difference in the backscatter values, a chi square test is performed on the difference between the images, and the significance change of 95% confidence is considered to be the areas of disturbance.
 This methodology was generally anchored on simple image difference combined with statistical analysis as a mode of smoothening the model.
-Forest degradation was performed within short term observations (fortnightly & monthly) of a new image in the regions of interest. 
+For a user to access this functionality, they will need to register, in order to access the possibility of having on-fly computation.
+On-fly computation is based on user defined attributes such as analysis period and comparison period as will be dicussed in the service section.
 
-Optical Based Alerts
+
+Optical Based Method
 =============================
 The NBR, acquired through the analysis of the index of Near 
 Infrared and Short Wave Infrared, was taken through the 
@@ -44,4 +46,11 @@ However, since the Radar approach above, is superior to the optical method, the 
  δNBR =rNBR_t2-rNBR_t1
  :label: eq_f
 
+=============================
+Forest Surveilance - Radar 
+=============================
+Forest surveilance, which is periodical monitoring of forest canopy changes, and automatically sending the analytics to the end user, 
+applied the Forest Disturbance - Radar method. However, for this specific product, a user may subscribe to recive alerts done periodically (fortnightly and monthly)
+in their emails.
+The alerts, once received, can be used for ground validation by the end users. 
 
