@@ -26,5 +26,9 @@ After the selection above, the user will populate the carbon flux form as shown 
     
 Populating the carbon flux form.
 
+
+
+.. figure:: ../_static/Images/trofmis3.png
+
 .. toctree::
    :maxdepth: 3
