@@ -47,9 +47,29 @@ The user is required to select either of the products for visualisation as shown
 
     Forest Canopy Change product selection
 
+The figures below highlights the product selection. The product form slightly changes depending on the type of product as above.
 
+.. figure:: ../_static/Images/annual.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
 
-When the user clicks generate, the forest change map is visualised as shown below.
+Forest Canopy Change annual product selection
+
+For Refernce product, please note the change in the drop down list and the logic of computation as discussed in previous chapter.
+
+.. figure:: ../_static/Images/reference.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+
+Forest Canopy Change reference product selection
+
+When the user clicks generate button, the forest change map is visualised as shown below.
 
 .. figure:: ../_static/Images/Change_output.png
     :width: 700
@@ -61,6 +81,7 @@ When the user clicks generate, the forest change map is visualised as shown belo
     Forest Canopy Change Map Output
 
 To undestand the FCC product, product description is highligted on the right panel, as well as the class statistics for the maps.
+The maps generated are based on the type of product selected on the product drop down.
 
 
 
