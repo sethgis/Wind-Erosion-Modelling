@@ -85,7 +85,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
     :alt: service schema
     :figclass: align-center
 
-    FCD computation summary.
+  
     
   
 
