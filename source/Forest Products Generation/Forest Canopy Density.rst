@@ -1,10 +1,3 @@
-.. figure:: ../_static/Images/trofmis.png
-    :width: 300
-    :align: center
-    :height: 400
-    :alt: service schema
-    :figclass: align-center
-
 
 ***************************************************
 Forest Canopy Density (FCD)
@@ -82,6 +75,16 @@ To compute the FCD output, the figure below summarises the steps applied in the 
     :figclass: align-center
 
     FCD computation summary.
+    
+    
+    
+    .. figure:: ../_static/Images/trofmis1.png
+    :width: 400
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
+
 
 .. toctree::
    :maxdepth: 3
