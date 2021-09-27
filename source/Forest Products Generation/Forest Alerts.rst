@@ -74,3 +74,13 @@ in their emails.
 The alerts, once received, can be used for ground validation by the end users. 
 
 
+
+  
+    .. figure:: ../_static/Images/trofmis1.png
+    :width: 400
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
+
+
