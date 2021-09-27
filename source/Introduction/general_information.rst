@@ -58,6 +58,15 @@ TroFMIS system is free and open-source system. It is licensed under the GNU Gene
    The boundaries and names used, and the designations used, in TroFMIS do not 
    imply official endorsement or acceptance by ICPAC, or its implementing partnering 
    organizations and contributors.
+   
+   
+   
+   .. figure:: ../_static/Images/trofmis3.png
+    :width: 300
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
 
 .. toctree::
    :maxdepth: 2
