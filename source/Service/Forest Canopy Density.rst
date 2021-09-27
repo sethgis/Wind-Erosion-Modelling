@@ -52,7 +52,18 @@ reference to the forest of interest generated.
     :alt: service schema
     :figclass: align-center
 
-    Area of interest pre-fillerd in the TroFMIS
+    Area of interest pre-filled in TroFMIS
+To understand the product, the user has been provided with product description, statistics and additional functionalities as 
+highlighted in the figure below.
+
+.. figure:: ../_static/Images/FCD.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+    
+    FCD interpretation
 
 
 
