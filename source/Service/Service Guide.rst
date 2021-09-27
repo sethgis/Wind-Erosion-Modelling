@@ -2,10 +2,11 @@
 ***************************************************
 TroFMIS Service Guide
 ***************************************************
-The various users are able to do their specified analysis within the TroFMIS system.
-The system ergonomicscan be experienced with the tools within the system, as well as the arrangement of the 
-different components that the user access.
-They various tools and functionalities are as shown in the figure below and described in the next section.
+TroFMIS system had capabilities for different users to compute the analysis and generate products based on their
+specifications.
+The system ergonomics can be experienced with the tools within the system, as well as the arrangement of the 
+different components that the user can access.
+The various tools and functionalities are as shown in the figure below and described in the next section.
 
 .. figure:: ../_static/Images/system_2.png
     :width: 600
