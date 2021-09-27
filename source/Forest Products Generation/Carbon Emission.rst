@@ -72,7 +72,7 @@ The figure below summarises the steps of computing the carbon flux in TroFMIS.
 
 
   
-    .. figure:: ../_static/Images/trofmis1.png
+    .. figure:: ../_static/Images/trofmis3.png
     :width: 400
     :align: center
     :height: 200
