@@ -1,12 +1,24 @@
 ***************************************************
-Computing Forest Change
+Computing Forest Canopy Change (FCC)
 ***************************************************
-In order to compute Forest Change, the user needs to select the 
-Forest Change product in the drop down list.
-Just like in Computing Forest Canopy Density, a user needs to select the various attributes including:
+In order to compute Forest Canopy Change, the user needs to select the 
+Forest Canopy Change product in the drop down list as was done in the previous selection on Forest Canopy Density.
+
+.. figure:: ../_static/Images/analysis_selection.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+    
+    Forest Canopy Change Selection 
+
+
+
+The user will also need to specify the following attributes before computing the final FCC product as shown in the figure below.
 
 	- Country, 
-	- Forest of ineterest, 
+	- Forest of interest, 
 	- The year and the 
 	- Platform.
 
@@ -17,9 +29,27 @@ Just like in Computing Forest Canopy Density, a user needs to select the various
     :alt: service schema
     :figclass: align-center
 
-    Forest Canopy Change Selection 
+    Forest Canopy Change attribute selection
+    
+Forest Canopy Change product is classified into 2 products, including:
+	- Annual product: which is the change computed from the difference in canopy between consequent years.
+	- Reference product:  the canopy change computed from the difference in canopy between the reference canopy (2016) and consequent years
+	2017, 2018, 2019 and 2020.
+The latter product is mainly considered for REDD+ reporting and carbon emmission monitoring, while the former is considered for forest condition monitoring.
+The user is required to select either of the products for visualisation as shown below.
 
-When you click generate, the forest change map is visualised as shown below.
+.. figure:: ../_static/Images/FCC.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+
+    Forest Canopy Change product selection
+
+
+
+When the user clicks generate, the forest change map is visualised as shown below.
 
 .. figure:: ../_static/Images/Change_output.png
     :width: 700
@@ -30,7 +60,7 @@ When you click generate, the forest change map is visualised as shown below.
 
     Forest Canopy Change Map Output
 
-
+To undestand the FCC product, product description is highligted on the right panel, as well as the class statistics for the maps.
 
 
 
