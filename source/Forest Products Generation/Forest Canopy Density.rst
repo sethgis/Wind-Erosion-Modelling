@@ -60,7 +60,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
 .. figure:: ../_static/Images/fcd_flowchart.png
     :width: 350
     :align: center
-    :height: 335
+    :height: 250
     :alt: service schema
     :figclass: align-center
 
