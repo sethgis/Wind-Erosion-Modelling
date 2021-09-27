@@ -37,7 +37,7 @@ The figure below shows the summary of computing the forest changes.
     
     
       
-    .. figure:: ../_static/Images/trofmis1.png
+    .. figure:: ../_static/Images/trofmis3.png
     :width: 400
     :align: center
     :height: 200
