@@ -8,7 +8,7 @@ other forest products.
 .. figure:: ../_static/Images/analysis_selection.png
     :width: 600
     :align: center
-    :height: 330
+    :height: 300
     :alt: service schema
     :figclass: align-center
 
@@ -22,7 +22,7 @@ The image below summarises the steps.
 .. figure:: ../_static/Images/dis.png
     :width: 600
     :align: center
-    :height: 330
+    :height: 300
     :alt: service schema
     :figclass: align-center
 
@@ -42,25 +42,46 @@ But generally, A user can select from the drop down list as other products.
 .. figure:: ../_static/Images/analysis_selection.png
     :width: 600
     :align: center
-    :height: 330
+    :height: 300
     :alt: service schema
     :figclass: align-center
 
     Forest Surveilance Product Selection
-    
- A user can also access the product from clicking on the add to watch list button that exist after generation of the 
- statistics of different forest products.
  
+A user can also access the product from clicking on the add to watch list button that exist after generation of the 
+statistics of different forest products.
  
  
  .. figure:: ../_static/Images/watch.png
     :width: 600
     :align: center
-    :height: 330
+    :height: 300
     :alt: service schema
     :figclass: align-center
 
     Forest Surveilance Product Selection
+ 
+ After accessing the forest surveilance product, a user is required to fill the forest surveilance form and define their 
+ specified attributes.
+ Forest surveilance takes in
+    - Country
+    - Forest of interest
+    - Duration of monitoring 
+    - Platform, which is Sentinel 1 Radar
+    
+ The figure below shows the capture of the form.
+ 
+ .. figure:: ../_static/Images/suv.png
+    :width: 600
+    :align: center
+    :height: 300
+    :alt: service schema
+    :figclass: align-center
+
+    Forest Surveilance form
+ 
+ 
+ 
  
  
 
