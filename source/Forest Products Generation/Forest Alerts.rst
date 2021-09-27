@@ -30,7 +30,6 @@ On-fly computation is based on user defined attributes such as analysis period a
 
 The image below summarises the way features interact with radar images.
 
-
 .. figure:: ../_static/Images/radar.png
     :width: 700
     :align: center
@@ -68,7 +67,6 @@ However, since the Radar approach above, is superior to the optical method, the 
  δNBR =rNBR_t2-rNBR_t1
  :label: eq_f
  
- 
 .. figure:: ../_static/Images/nbr.png
     :width: 700
     :align: center
@@ -76,7 +74,7 @@ However, since the Radar approach above, is superior to the optical method, the 
     :alt: service schema
     :figclass: align-center
 
-   Summary flow chart for canopy disturbance using Optical method.
+    Summary flow chart for canopy disturbance using Optical method.
 
 =============================
 Forest Surveilance - Radar 
@@ -93,4 +91,4 @@ The alerts, once received, can be used for ground validation by the end users.
     :alt: service schema
     :figclass: align-center
 
-   Summary flow chart for canopy disturbance using Optical method.
+    Summary flow chart for canopy disturbance using Optical method.
