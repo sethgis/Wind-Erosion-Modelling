@@ -32,7 +32,7 @@ framework that is co-funded by the African Union and the European Union.
 Contributors to the documentation
 include Mr. Kenneth Kemucie Mwangi, Mr. Eugene Kayijamahe, Ms. Viola Otieno, Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Collins Asega, Mr. Derick Ongeri, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
-	.. image:: /_static/Images/pp.png
+	.. image:: /_static/Images/patners.png
 	   :height: 94
 	   :width: 550
 	   :alt: partners
@@ -60,6 +60,7 @@ TroFMIS system is free and open-source system. It is licensed under the GNU Gene
    organizations and contributors.
    
    
+.. figure:: ../_static/Images/trofmis3.png
     
     
 .. toctree::
