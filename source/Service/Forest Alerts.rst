@@ -1,4 +1,7 @@
 
+.. figure:: ../_static/Images/trofmis3.png
+
+
 ***************************************************
 Compute Forest Disturbance - Radar
 ***************************************************
