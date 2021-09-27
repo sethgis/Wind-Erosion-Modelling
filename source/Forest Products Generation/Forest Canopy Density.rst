@@ -78,12 +78,16 @@ To compute the FCD output, the figure below summarises the steps applied in the 
     
     
     
-    .. figure:: ../_static/Images/trofmis1.png
-    :width: 400
+.. figure:: ../_static/Images/trofmis3.png
+    :width: 150
     :align: center
-    :height: 200
+    :height: 100
     :alt: service schema
     :figclass: align-center
+
+    FCD computation summary.
+    
+  
 
 
 .. toctree::
