@@ -4,13 +4,13 @@ Forest Canopy Density (FCD)
 ***************************************************
 The FCD products in specified forests were generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
 Our approach made slight modification to the original FCD technique by excluding Principal Component Analysis (PCA),
-which is computational intensive over large areas or when done through to high resolution data. 
+which is computational intensive over large areas, or when done using high resolution data. 
 The modified FCD approach can be expressed as:
 
 .. math::
 
  FCD=√(AVI×SSI+1)-1 
- :label: FCD model
+ :label: eq_a
 
 
 Where, the Advanced Vegetation Index (AVI), like many vegetation index, gives precedence to the areas with healthier vegetation as
