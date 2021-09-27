@@ -19,7 +19,7 @@ data products for tropical forest monitoring. The intension of these products, w
 in response to African needs in water, natural resources, marine, coastal areas and moreso carbon flux monitoring.
 The system and products align with the global goal to manage the environment, mitigate climate change and ensure civil security.
 
-.. figure:: ../_static/Images/trofmis3.png
+
 
 
 .. toctree::
@@ -51,7 +51,6 @@ The system and products align with the global goal to manage the environment, mi
    Service/Forest Alerts
 
    
-
 
 ==================
 Indices and tables
