@@ -34,9 +34,9 @@ SSI applied the numerical intergration of Blue and Green bands to identify shado
 The image summarises the steps of generating FCD prodct uisng earth observation methods.
 
 .. figure:: ../_static/Images/fcd_image.png
-    :width: 100
+    :width: 300
     :align: center
-    :height: 300
+    :height: 400
     :alt: service schema
     :figclass: align-center
 
