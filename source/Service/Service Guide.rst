@@ -8,7 +8,7 @@ The system ergonomics and experience is found in the tools in the system, as wel
 different components that the user can access.
 They include various tools and functionalities as shown in the figure below.
 
-.. figure:: ../_static/Images/sysover.png
+.. figure:: ../_static/Images/system_2.png
     :width: 600
     :align: center
     :height: 330
