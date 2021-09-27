@@ -80,7 +80,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
 
 
   
-    
+.. figure:: ../_static/Images/trofmis3.png  
   
 
 
