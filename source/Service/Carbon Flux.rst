@@ -24,7 +24,7 @@ After the selection above, the user will populate the carbon flux form as shown 
     :alt: service schema
     :figclass: align-center
     
-Filling of the carbon flux form.
+Populating the carbon flux form.
 
 .. toctree::
    :maxdepth: 3
