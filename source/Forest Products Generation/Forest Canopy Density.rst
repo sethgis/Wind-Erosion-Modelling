@@ -9,8 +9,8 @@ The modified FCD approach can be expressed as:
 
 .. math::
 
- FCD=√(AVI×SSI+1)-1 
- :label: eq_a
+ FCD=√(AVI × SSI+1)-1 
+ :label: FCD model
 
 
 Where, the Advanced Vegetation Index (AVI), like many vegetation index, gives precedence to the areas with healthier vegetation as
