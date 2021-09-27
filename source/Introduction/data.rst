@@ -110,7 +110,7 @@ Forest Alerts
 
 
  .. figure:: ../_static/Images/trofmis3.png
-    :width: 400
+    :width: 300
     :align: center
     :height: 200
     :alt: service schema
