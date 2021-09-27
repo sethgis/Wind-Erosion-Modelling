@@ -2,20 +2,29 @@
 Computing Carbon Flux
 ***************************************************
 The canopy disturbance/forest change are generated from the simple image difference acquired from the comparison of 
-the Forest Canopy Density products.
+the Forest Canopy Density products of 2016 as baseline year, and subsequent years (2017, 2018, 2019, 2020).
 
+To compute the Carbon flux product in TroFMIS, like in other forest products, a user will need to select the carbon flux procuct from the drop down list.
 
-
-The figure below shows the summary logic of computing the forest changes/canopy disturbance.
-
-.. figure:: ../_static/Images/Canopy_Disturbance.png
-    :width: 351
+.. figure:: ../_static/Images/analysis_selection.png
+    :width: 700
     :align: center
-    :height: 341
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
-    Summary of computation of Forest Canopy Disturbance
+Selection of the carbon flux product
+
+After the selection above, the user will populate the carbon flux form as shown below.
+
+.. figure:: ../_static/Images/flux.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+    
+Filling of the carbon flux form.
 
 .. toctree::
    :maxdepth: 3
