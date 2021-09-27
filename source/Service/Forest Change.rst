@@ -83,7 +83,7 @@ When the user clicks generate button, the forest change map is visualised as sho
 To undestand the FCC product, product description is highligted on the right panel, as well as the class statistics for the maps.
 The maps generated are based on the type of product selected on the product drop down.
 
-
+.. figure:: ../_static/Images/trofmis3.png
 
 .. toctree::
    :maxdepth: 3
