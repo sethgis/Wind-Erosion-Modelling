@@ -29,8 +29,7 @@ The TroFMIS system is a project by the ICPAC under the Global Monitoring for Env
 framework that is co-funded by the African Union and the European Union.
 
 Contributors to the documentation
-include Mr. Eugine Kayijamahe, Mr. Kenneth Kemuchie, Ms. Viola Otieno,
-Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Collins Asega, Mr. Derick Ongeri, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
+include Mr. Kenneth Kemucie Mwangi, Mr. Eugene Kayijamahe, Ms. Viola Otieno, Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Collins Asega, Mr. Derick Ongeri, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
 	.. image:: /_static/Images/partners.png
 	   :height: 94
