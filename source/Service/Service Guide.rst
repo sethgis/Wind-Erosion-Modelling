@@ -15,7 +15,7 @@ The various tools and functionalities are as shown in the figure below and descr
     :alt: service schema
     :figclass: align-center
 
-    Service Tools (TroFMIS)
+    TroFMIS Tools
 
 	- 1.
  
@@ -26,6 +26,7 @@ patner logos inclusive of GMES & Africa, African Union Commission and European U
 System tools comprising of the Home button, linking to the home page of the system.
 The dashboard button leading to the system dashboard where computation and layer selection can be done, system information icon i, messaging icon for message notification, the User registration button, that allows the user to register for alerts, 
 Notification icon to allow the user manage their subvscribed alerts and loaded shapefiles seamlessly.
+
 
 	- 3. 
 Right Side panel comprising of selection panel for selecting type of analysis, which is connected to the left bottom panel.
@@ -39,6 +40,19 @@ System tools section, from top download data icon, for drawing customed boundari
 	
 	- 7. 
 The comparison tool box including opacity and swap tool from left to right. 
+
+The above descriptions are also visualised in the image below.
+
+.. figure:: ../_static/Images/full_sys.png
+    :width: 600
+    :align: center
+    :height: 330
+    :alt: service schema
+    :figclass: align-center
+
+    TroFMIS Tools
+
+
 
 
 System Selection
