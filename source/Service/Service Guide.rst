@@ -110,12 +110,8 @@ output after computation. The registration form is as shown in the figfure below
 
 
   
-    .. figure:: ../_static/Images/trofmis1.png
-    :width: 400
-    :align: center
-    :height: 200
-    :alt: service schema
-    :figclass: align-center
+.. figure:: ../_static/Images/trofmis1.png
+    
 
 .. toctree::
    :maxdepth: 3
