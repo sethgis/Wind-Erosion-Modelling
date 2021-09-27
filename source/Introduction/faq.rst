@@ -114,9 +114,9 @@ a working email and register as a user in TroFMIS.
 
 
 .. figure:: ../_static/Images/trofmis3.png
-    :width: 300
+    :width: 150
     :align: center
-    :height: 200
+    :height: 100
     :alt: service schema
     :figclass: align-center
 
