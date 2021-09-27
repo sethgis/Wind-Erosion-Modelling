@@ -32,14 +32,7 @@ The figure below shows the summary of computing the forest changes.
 
     Forest Canopy Changes computation.
     
-    
-     
-.. figure:: ../_static/Images/trofmis3.png
-    :width: 150
-    :align: center
-    :height: 100
-    :alt: service schema
-    :figclass: align-center
+   
 
 .. toctree::
    :maxdepth: 3
