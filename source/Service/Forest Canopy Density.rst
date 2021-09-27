@@ -71,12 +71,8 @@ highlighted in the figure below.
 
 
   
-    .. figure:: ../_static/Images/trofmis3.png
-    :width: 400
-    :align: center
-    :height: 200
-    :alt: service schema
-    :figclass: align-center
+.. figure:: ../_static/Images/trofmis3.png
+   
 
 
 .. toctree::
