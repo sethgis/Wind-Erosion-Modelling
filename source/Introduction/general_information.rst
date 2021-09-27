@@ -60,12 +60,6 @@ TroFMIS system is free and open-source system. It is licensed under the GNU Gene
    organizations and contributors.
    
    
- .. figure:: ../_static/Images/trofmis3.png
-    :width: 150
-    :align: center
-    :height: 100
-    :alt: service schema
-    :figclass: align-center
     
     
 .. toctree::
