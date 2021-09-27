@@ -86,9 +86,19 @@ Top register please click the icon as illustrated in the figure below.
     :alt: service schema
     :figclass: align-center
 
-    Registration icon for a user.
+    Registration icon.
 
+After accessing the registration form, a user will insert their preffered credentials and a working email in order to recieve the specified 
+output after computation. The registration form is as shown in the figfure below.
 
+.. figure:: ../_static/Images/register.png
+    :width: 600
+    :align: center
+    :height: 330
+    :alt: service schema
+    :figclass: align-center
+
+    Registration form.
 
 
 
