@@ -7,16 +7,38 @@ Forest Degradation was analysed through the application of dual approach, includ
  	- Optical Based Method. 
 	
 
-Forest Disturbance Using (Bivariate Method).
+Forest Canopy Disturbance Using (Bivariate Method).
 ==========================================================
 Radar images are capable of transcending the cloud cover challenge, an attribute that normally lacks with the optical sensors. The canopy disturbance monitoring using Radar images is thus considered superior due to this ability.
 To compute the canopy disturbance using the Radar approach, the bivariate change method is applied, in detecting the forest canopy disturbance. 
 The bivariate method captures any form of change occurring within a forest that could otherwise, have been omitted from a single look observation using either VV or VH.
 Based on the difference in the backscatter values, a chi square test is performed on the difference between the images, and the significance change of 95% confidence is considered to be the areas of disturbance.
+
+.. figure:: ../_static/Images/radar_2.png
+    :width: 600
+    :align: center
+    :height: 330
+    :alt: service schema
+    :figclass: align-center
+
+    Summary methodology for canopy disturbance using Sentinel 1 - Radar images 
+
+
 This methodology was generally anchored on simple image difference combined with statistical analysis as a mode of smoothening the model.
 For a user to access this functionality, they will need to register, in order to access the possibility of having on-fly computation.
 On-fly computation is based on user defined attributes such as analysis period and comparison period as will be dicussed in the service section.
 
+The image below summarises the way features interact with radar images.
+
+
+.. figure:: ../_static/Images/radar.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+
+    Image reflectance based on Rada rmethod
 
 Optical Based Method
 =============================
@@ -45,6 +67,16 @@ However, since the Radar approach above, is superior to the optical method, the 
 .. math::
  δNBR =rNBR_t2-rNBR_t1
  :label: eq_f
+ 
+ 
+.. figure:: ../_static/Images/nbr.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+
+   Summary flow chart for canopy disturbance using Optical method.
 
 =============================
 Forest Surveilance - Radar 
@@ -54,3 +86,11 @@ applied the Forest Disturbance - Radar method. However, for this specific produc
 in their emails.
 The alerts, once received, can be used for ground validation by the end users. 
 
+.. figure:: ../_static/Images/forest_image.png
+    :width: 700
+    :align: center
+    :height: 350
+    :alt: service schema
+    :figclass: align-center
+
+   Summary flow chart for canopy disturbance using Optical method.
