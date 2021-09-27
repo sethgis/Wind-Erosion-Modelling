@@ -25,12 +25,22 @@ compraed to the areas with scarce or novegetation. The AVI was computed as shown
 
 The AVI was directly fused with Scaled Shadow Index (SSI), to yield the ultimate forest canopy densities.
 i.e. areas with canopy cover while segregating areas with very little or no vegetation. 
-SSI applied the numerical intergration of Blue and Green bands to identify shadow covered areas as shown below.
+SSI applied the numerical intergration of Blue and Green bands to identify shadow covered areas as shown in the equation below.
 
 .. math::
  SSI=(256-Blue)*(256-Green)*(256-Red)/3
  :label: SSI model	
 	
+The image summarises the steps of generating FCD prodct uisng earth observation methods.
+
+.. figure:: ../_static/Images/fcd_image.png
+    :width: 100
+    :align: center
+    :height: 300
+    :alt: service schema
+    :figclass: align-center
+
+    FCD computation summary.
 
 
 
