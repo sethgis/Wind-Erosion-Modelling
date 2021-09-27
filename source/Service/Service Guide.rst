@@ -54,10 +54,10 @@ The TroFMIS system contains the forest products including
 In order to compute these products, the user needs to select the products from the drop down list
 bar as shown in the figure below.
 
-.. figure:: ../_static/Images/selection.png
-    :width: 700
+.. figure:: ../_static/Images/analysis_selection.png
+    :width: 600
     :align: center
-    :height: 430
+    :height: 330
     :alt: service schema
     :figclass: align-center
 
