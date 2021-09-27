@@ -63,14 +63,6 @@ The figure below summarises the steps of computing the carbon flux in TroFMIS.
     :figclass: align-center
 
     Summary of Carbon flux computation.
-
-  .. figure:: ../_static/Images/trofmis3.png
-    :width: 150
-    :align: center
-    :height: 100
-    :alt: service schema
-    :figclass: align-center
-    
     
     
     
