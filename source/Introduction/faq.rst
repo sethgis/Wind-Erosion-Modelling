@@ -111,7 +111,7 @@ How will the user receive the alerts?
 The user, after subscription to the watchlist, will receive notification in their respective emails thus the need to have 
 a working email and register as a user in TroFMIS.
 
-
+.. figure:: ../_static/Images/trofmis3.png
 
 .. toctree::
    :maxdepth: 3
