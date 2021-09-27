@@ -31,7 +31,7 @@ framework that is co-funded by the African Union and the European Union.
 Contributors to the documentation
 include Mr. Kenneth Kemucie Mwangi, Mr. Eugene Kayijamahe, Ms. Viola Otieno, Dr. Mwangi Kinyanjui, Dr. Benson Kenduwyo, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Collins Asega, Mr. Derick Ongeri, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
-	.. image:: /_static/Images/partners1.png
+	.. image:: /_static/Images/partners.png
 	   :height: 94
 	   :width: 550
 	   :alt: partners
