@@ -73,5 +73,24 @@ While the area of interest could be any forest that the user is interested in mo
 After selection, the user can generate the products using the generate button.The process of generating product
 is discussed under specific system product generation in the next section.
 
+User Registration
+====================================
+In order to access some specific system functionalities, such as computing the Forest Surveilance using Radar,
+A will be required to register and log in wih their credentials, specifying their user name and email addresses.
+Top register please click the icon as illustrated in the figure below.
+
+.. figure:: ../_static/Images/registration.png
+    :width: 600
+    :align: center
+    :height: 330
+    :alt: service schema
+    :figclass: align-center
+
+    Registration icon for a user.
+
+
+
+
+
 .. toctree::
    :maxdepth: 3
