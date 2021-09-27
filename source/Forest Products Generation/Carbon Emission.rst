@@ -58,7 +58,7 @@ The figure below summarises the steps of computing the carbon flux in TroFMIS.
 .. figure:: ../_static/Images/Canopy_Disturbance.png
     :width: 351
     :align: center
-    :height: 341
+    :height: 300
     :alt: service schema
     :figclass: align-center
 
