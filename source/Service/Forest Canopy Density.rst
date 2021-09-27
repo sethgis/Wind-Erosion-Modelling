@@ -5,9 +5,9 @@ Computing Forest Canopy Density
 1. To compute Forest Canopy Density, select the Forest Canopy density product from the from the drop down list.
 
 .. figure:: ../_static/Images/analysis_selection.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
@@ -67,6 +67,16 @@ highlighted in the figure below.
 
 
 
+
+
+
+  
+    .. figure:: ../_static/Images/trofmis1.png
+    :width: 400
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
 
 
 .. toctree::
