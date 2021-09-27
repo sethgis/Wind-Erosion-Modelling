@@ -9,9 +9,9 @@ different components that the user can access.
 The various tools and functionalities are as shown in the figure below and described in the next section.
 
 .. figure:: ../_static/Images/system_2.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
@@ -44,9 +44,9 @@ The comparison tool box including opacity and swap tool from left to right.
 The above descriptions are also visualised in the image below.
 
 .. figure:: ../_static/Images/full_sys.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
@@ -70,9 +70,9 @@ In order to compute these products, the user needs to select the products from t
 bar as shown in the figure below.
 
 .. figure:: ../_static/Images/analysis_selection.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
@@ -95,9 +95,9 @@ A will be required to register and log in wih their credentials, specifying thei
 Top register please click the icon as illustrated in the figure below.
 
 .. figure:: ../_static/Images/registration.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
@@ -107,9 +107,9 @@ After accessing the registration form, a user will insert their preffered creden
 output after computation. The registration form is as shown in the figfure below.
 
 .. figure:: ../_static/Images/register.png
-    :width: 600
+    :width: 700
     :align: center
-    :height: 330
+    :height: 350
     :alt: service schema
     :figclass: align-center
 
