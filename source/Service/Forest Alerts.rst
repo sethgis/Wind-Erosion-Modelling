@@ -52,7 +52,7 @@ A user can also access the product from clicking on the add to watch list button
 statistics of different forest products.
  
  
- .. figure:: ../_static/Images/watch.png
+.. figure:: ../_static/Images/watch.png
     :width: 600
     :align: center
     :height: 300
@@ -71,7 +71,7 @@ statistics of different forest products.
     
  The figure below shows the capture of the form.
  
- .. figure:: ../_static/Images/suv.png
+.. figure:: ../_static/Images/suv.png
     :width: 600
     :align: center
     :height: 300
@@ -81,7 +81,7 @@ statistics of different forest products.
     Forest Surveilance form
  
  
- 
+.. figure:: ../_static/Images/trofmis3.png
  
  
 
