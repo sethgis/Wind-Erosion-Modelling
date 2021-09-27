@@ -107,3 +107,11 @@ Forest Alerts
 | Gain             | - 0.5 ha  | Inf     | 
 +------------------+-----------+---------+
 
+
+
+ .. figure:: ../_static/Images/trofmis3.png
+    :width: 400
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
