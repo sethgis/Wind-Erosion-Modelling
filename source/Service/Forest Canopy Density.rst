@@ -71,7 +71,7 @@ highlighted in the figure below.
 
 
   
-    .. figure:: ../_static/Images/trofmis1.png
+    .. figure:: ../_static/Images/trofmis2.png
     :width: 400
     :align: center
     :height: 200
