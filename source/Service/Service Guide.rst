@@ -110,7 +110,7 @@ output after computation. The registration form is as shown in the figfure below
 
 
   
-.. figure:: ../_static/Images/trofmis1.png
+.. figure:: ../_static/Images/trofmis3.png
     
 
 .. toctree::
