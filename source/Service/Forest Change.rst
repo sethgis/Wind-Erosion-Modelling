@@ -1,3 +1,7 @@
+
+.. figure:: ../_static/Images/trofmis3.png
+
+
 ***************************************************
 Computing Forest Canopy Change (FCC)
 ***************************************************
