@@ -1,6 +1,7 @@
 =====================
 General Information
 =====================
+
 TroFMIS is a surveilance system that is based on monitoring the Tropical Montane Forest in the IGAD region. The Tropical montane forest monitoring is part
 of the global goal towards reduction of carbon emission, while enhancing verifiable modes for REDD+ reporting. 
 TroFMIS is keen on applying REDD+ monitoring guidelines outlined by UNCCD on tropical forest and carbon emission reporting. Thus, the system has intergrated these
@@ -61,9 +62,9 @@ TroFMIS system is free and open-source system. It is licensed under the GNU Gene
    
    
    .. figure:: ../_static/Images/trofmis3.png
-    :width: 300
+    :width: 150
     :align: center
-    :height: 200
+    :height: 100
     :alt: service schema
     :figclass: align-center
 
