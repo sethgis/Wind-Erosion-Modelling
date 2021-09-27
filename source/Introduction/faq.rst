@@ -113,6 +113,13 @@ a working email and register as a user in TroFMIS.
 
 
 
+.. figure:: ../_static/Images/trofmis3.png
+    :width: 300
+    :align: center
+    :height: 200
+    :alt: service schema
+    :figclass: align-center
+
 
 .. toctree::
    :maxdepth: 3
