@@ -1,3 +1,6 @@
+.. figure:: ../_static/Images/trofmis3.png
+
+
 
 ***************************************************
 Forest Canopy Density (FCD)
