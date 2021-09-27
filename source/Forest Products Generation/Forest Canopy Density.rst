@@ -77,13 +77,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
     FCD computation summary.
     
     
-    
-.. figure:: ../_static/Images/trofmis3.png
-    :width: 150
-    :align: center
-    :height: 100
-    :alt: service schema
-    :figclass: align-center
+
 
   
     
