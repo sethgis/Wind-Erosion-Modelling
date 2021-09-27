@@ -1,12 +1,11 @@
 
 ***************************************************
-TrofMIS Service Guide
+TroFMIS Service Guide
 ***************************************************
-
-The TroFMIS system contains state of the art tools, that gives the user an easy use of the system.
-The system ergonomics and experience is found in the tools in the system, as well as the arrangement of the 
-different components that the user can access.
-They include various tools and functionalities as shown in the figure below.
+The various users are able to do their specified analysis within the TroFMIS system.
+The system ergonomicscan be experienced with the tools within the system, as well as the arrangement of the 
+different components that the user access.
+They various tools and functionalities are as shown in the figure below and described in the next section.
 
 .. figure:: ../_static/Images/system_2.png
     :width: 600
@@ -24,21 +23,18 @@ patner logos inclusive of GMES & Africa, African Union Commission and European U
 
 	- 2. 
 System tools comprising of the Home button, linking to the home page of the system.
-The dashboard button leading to the system dashboard, system information icon i, messaging icon for recived
-messages, the User registration button, that leads to form for the user to register for alerts, Notification
-icon to show number of notifications received in the messages and language button to change the language preference for the user
-respectively.
+The dashboard button leading to the system dashboard where computation and layer selection can be done, system information icon i, messaging icon for message notification, the User registration button, that allows the user to register for alerts, 
+Notification icon to allow the user manage their subvscribed alerts and loaded shapefiles seamlessly.
 
 	- 3. 
-Right Side panel comprising of selection panel for selecting forest 
-and areas of interest for analysis.
+Right Side panel comprising of selection panel for selecting type of analysis, which is connected to the left bottom panel.
 
 	- 5. 
-The left corner panel comprising of buttons to activate tjhe analysis panel, the legend for 
-comparison, and documentation.
+The left corner panel comprising of buttons to activate the analysis panel,
+comparison tool between layers, and documentation where all the step by step use of the system is documented.
 
 	- 6. 
-System tools section, from top download data icon, draw customed boundary, select base map icon and zoom in and out button respectively.
+System tools section, from top download data icon, for drawing customed boundaries, changing and selecting different base map icon, zoom in/out button respectively.
 	
 	- 7. 
 The comparison tool box including opacity and swap tool from left to right. 
@@ -50,11 +46,12 @@ System Selection
 The TroFMIS system contains the forest products including
 
 	- Forest Canopy Density
-	- Forest Change/Canopy Disturbance
+	- Forest Canopy Change
 	- Carbon Flux/Emmission
-	- Forest Alerts
+	- Forest Disturbance - Radar
+	- Forest Surveilance - Radar
 
-In order to compute these products, the user needs to select the products from the drop down list in the right panel
+In order to compute these products, the user needs to select the products from the drop down list
 bar as shown in the figure below.
 
 .. figure:: ../_static/Images/selection.png
@@ -66,12 +63,13 @@ bar as shown in the figure below.
 
     System Product Selection (TroFMIS)
 
-The selection of the forest products will open a system form that allows the user to select
-the Country, Forest of Interest, The analysis year and the Platform. The platform is either
+The selection of the forest products will allow the user to select
+the Country, Forest of Interest, The analysis year and the Platform from which to base their analysis. 
+The platform is either
 
 	- Landsat
 	- Sentinel
-
+While the area of interest could be any forest that the user is interested in monitoring.
 After selection, the user can generate the products using the generate button.The process of generating product
 is discussed under specific system product generation in the next section.
 
