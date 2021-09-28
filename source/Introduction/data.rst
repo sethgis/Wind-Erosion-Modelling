@@ -6,9 +6,8 @@ Data Source
 ========================
 
 The data needs assessment outlined all the data needed for generation of the forest products,
-which entailed the proposed REDD+ models to achieve the envisioned forest products and statistical information.
-The models specifications are outlined in the objectives section. 
-For their successive computation and analysis, the data needs assessed were as shown in the table below.
+which are inclusive of all datasets used in the proposed REDD+ models to achieve the envisaged forest products.
+The data sources are discussed in the following sections.
 
 -------------------------------------------------------
 Data Source
@@ -54,7 +53,7 @@ These range of values were considered as the data coding values used to classify
 as shown in the table below.
 
 
-Forest Canopy
+Forest Canopy Density (FCD)
 -------------------------------------------------------
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min (%)   | Max (%) | 
@@ -69,8 +68,10 @@ Forest Canopy
 +------------------+-----------+---------+
 
 
-Forest Change
+Forest Canopy Change (FCC)
 -------------------------------------------------------
+A multi band raster form 2016 - 2020, coded as shown below.
+
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min       | Max     | 
 +==================+===========+=========+
@@ -85,8 +86,7 @@ Forest Change
 
 Carbon Flux
 -----------------------------------------
-A multi band raster form 2016 - 2020, coded as:
-
+A multi band raster form 2016 - 2020, coded as shown below.
 
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min       | Max     | 
@@ -100,7 +100,7 @@ A multi band raster form 2016 - 2020, coded as:
 
 
 
-Forest Alerts
+Forest Disturbance and Alerts
 -------------------------------------------------------
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min       | Max     | 
