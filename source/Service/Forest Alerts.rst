@@ -61,7 +61,8 @@ statistics of different forest products.
  After accessing the forest surveilance product, a user is required to fill the forest surveilance form and define their 
  specified attributes.
  
- Forest surveilance takes in
+ Forest surveilance takes in:
+ 
     * Country
     * Forest of interest
     * Duration of monitoring 
