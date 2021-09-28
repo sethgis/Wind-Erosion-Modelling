@@ -41,16 +41,6 @@ Data Source
 -------------------------------------------------------
 Forest Product Coding
 -------------------------------------------------------
-The generated forest products included:
-	- Forest Canopy Map
-	- Forest Change Map
-	- Forest Disturbance Map
-	- Forest Carbon Flux Map
-
-Were generated automatically in Google earth engine as highlighted in the methodology section.
-These products are in GeoTiff format, and have a range of values for classification. 
-These range of values were considered as the data coding values used to classify the outputs for visualisation
-as shown in the table below.
 
 
 Forest Canopy Density (FCD)
