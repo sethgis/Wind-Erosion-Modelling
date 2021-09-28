@@ -57,16 +57,7 @@ But generally, a user can select from the drop down list as shown below.
 A user can also access the product from clicking on the add to watch list button that exist after generation of the 
 statistics of different forest products.
  
- 
-.. figure:: ../_static/Images/watch.png
-    :width: 600
-    :align: center
-    :height: 300
-    :alt: service schema
-    :figclass: align-center
 
-    Forest Surveilance Product Selection
- 
  After accessing the forest surveilance product, a user is required to fill the forest surveilance form and define their 
  specified attributes.
  
