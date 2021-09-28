@@ -11,13 +11,28 @@ Tropical Forest Monitoring and Surveilance System in the Eastern Africa Region
 	   :width: 550
 	   :alt: LocateIT
 
-The IGAD Climate Prediction and Applications Centre (ICPAC) under their Global Monitoring for Environment 
-and Security & Africa (GMES & Africa) Support Programme, intended to implement Earth Observation 
+The IGAD Climate Prediction and Applications Centre (ICPAC), under the Global Monitoring for Environment 
+and Security & Africa (GMES & Africa) project, implemented Earth Observation based 
 System for Tropical Forest Surveillance, Monitoring and Assessment (TFSMA) Service. 
-The application’s main aim was to use Earth Observation methods/algorithms and tools to generate geospatial 
-data products for tropical forest monitoring. The intension of these products, was to necessitate REDD+ monitoring 
-in response to African needs in water, natural resources, marine, coastal areas and moreso carbon emmissions.
-The system and products align with the global goal towards achievement of a sustainable environment, mitigation of climate change effects and ensurance of civil security.
+The application’s main aim is to use Earth Observation methods/algorithms and tools to generate geospatial 
+data products for tropical forest monitoring. 
+
+The overall TroFMIS goal aligns with GMES & Africa thematic chapters identified and agreed on for the Action Plan, which includes:
+
+(i) Long term Management of Natural Resources; 
+(ii) Water Resource Management; 
+(iii) Marine & Coastal Areas Management; 
+(iv) Food Security and Rural Development; 
+(v) Climate Variability and Change; 
+(vi) Disaster Risk Reduction; 
+(vii) Health; 
+(viii) Conflict and Political Crisis, and 
+(ix) Infrastructure and Territorial Development.
+
+
+Thus, TroFMIS implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
+monitoring and assess forest activities, in order to achieve sustainable natural resources management and use.
+
 
 
 
