@@ -19,15 +19,15 @@ data products for tropical forest monitoring.
 
 The overall TroFMIS goal aligns with GMES & Africa thematic chapters identified and agreed on for the Action Plan, which includes:
 
-(i) Long term Management of Natural Resources; 
-(ii) Water Resource Management; 
-(iii) Marine & Coastal Areas Management; 
-(iv) Food Security and Rural Development; 
-(v) Climate Variability and Change; 
-(vi) Disaster Risk Reduction; 
-(vii) Health; 
-(viii) Conflict and Political Crisis, and 
-(ix) Infrastructure and Territorial Development.
+* Long term Management of Natural Resources; 
+* Water Resource Management; 
+* Marine & Coastal Areas Management; 
+* Food Security and Rural Development; 
+* Climate Variability and Change; 
+* Disaster Risk Reduction; 
+* Health; 
+* Conflict and Political Crisis, and 
+* Infrastructure and Territorial Development.
 
 
 Thus, TroFMIS implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
