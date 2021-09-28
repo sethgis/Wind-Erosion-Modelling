@@ -7,19 +7,19 @@ General Information
 =====================
 
 TroFMIS is a surveilance system that monitors Tropical Montane Forest in the Eastern Africa region. The tropical montane forests conservation is part
-of the sustainable development goald towards reduction of carbon emission, through development of verifiable methods for REDD+ monitoring and reporting. 
+of the sustainable development goal towards reduction of carbon emission, through development of verifiable methods for REDD+ monitoring and reporting. 
 TroFMIS is keen on applying REDD+ monitoring guidelines outlined by various stakeholders such as UNCCD, UNFCC & FAO on tropical forest and carbon emission reporting.
-The products developed in TroFMIS that supports the tropical forest monitoring and surveilance include activities:
+The products developed in TroFMIS that supports the tropical forest monitoring and surveilance activities include:
 
-	* Forest Canopy Density (FCD)
-	* Forest Canopy Changes (FCC)
-	* Forest Disturbance Monitoring - Radar 
-	* Forest Alerts - Radar
+	(i)  Forest Canopy Density (FCD)
+	(ii) Forest Canopy Changes (FCC)
+	(iii) Forest Disturbance Monitoring - Radar 
+	(iv) Forest Alerts - Radar
 	
-The products in TroFMIS will enable key stakeholders and end users towards monitoring the continous 
+The products in TroFMIS enables key stakeholders and end users in monitoring the continous 
 vegetation change within their forests of interest, in addition to near real time monitoring of the 
-forest condition against disturbance. The various users, will also receive periodical alerts pertaining to the
-disturbance of the forets canopy densties within their forests of interests.
+forest disturbance. The various users, will also receive periodical alerts pertaining to the
+disturbance of the forest canopy densties within their forests of interests.
 
 
 
