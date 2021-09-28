@@ -4,22 +4,22 @@
 Frequently Asked Questions (FAQ)
 ====================================================
 
-This page lists some Frequently Asked Questions (FAQs) for TroFMIS .
+This page lists some of the Frequently Asked Questions (FAQs) for TroFMIS.
 
-Installation and use of TroFMIS Service
+Use of TroFMIS 
 ___________________________________________
 
-TroFMIS service is a hosted service where all users can access via the internet.
-There is no special need to install the service, a user with internet access and the address will be able to use the service.
-However, for the user to access other types of analysis such as forest surveillance, the user will need to have a working email address, to receive
-alerts on the monitoring aspect of the forest of interest. however, the user can also detect forest disturbance based on their defined dates.
+TroFMIS service is a hosted service where all users can access the system via the internet.
+A user with internet access and the system link is able to use TroFMIS.
+However, in order to access other types of analysis such as forest alerts, the user will need to have a working email address. This 
+should prompt the user to register in the system.
 
 Will I be able to download the outputs from the system? How will I visualize the outputs?
 ------------------------------------------------------------------------------------------------------------------------------------
 
 The system will allow download of the visualised products in different formats inluding .png & .tiff files as well as statistics in form of 
-.csv format for further use.
-The downloaded products can be visualised using different formats including microsoft excel software, and .tiff files, the 
+.csv format.
+The downloaded products can be visualised using different formats, including microsoft excel softwares, and .tiff files, the 
 output can be visualised in any GIS based software (ArcGIS or Quantum- GIS) with the latter being open source  
 `HERE <https://qgis.org/en/site/forusers/download.html>`_.
 
