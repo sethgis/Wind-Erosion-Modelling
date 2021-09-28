@@ -4,7 +4,7 @@
 Computing Forest Canopy Density
 ***************************************************
 
-1. To compute Forest Canopy Density, select the Forest Canopy density product from the from the drop down list.
+1. To compute Forest Canopy Density, select the Forest Canopy density product from the from the forest products drop down list.
 
 .. figure:: ../_static/Images/analysis_selection.png
     :width: 700
@@ -15,7 +15,7 @@ Computing Forest Canopy Density
 
     System Product Selection (FCD)
 
-2. Select the values\attributes to fill in the selection slots as shown in the 
+2. Select the values\attributes to fill in the form as shown in the 
 figure below.
 
 .. figure:: ../_static/Images/canopy_selection.png
@@ -44,8 +44,7 @@ figure below.
 	- Chart: Gives a summary statistics of class value distribution in hectares
 	- The control buttons: Enable the user to generate another product, or compare between the layers.
 	
-Please note the automatic population of User selection in the highlighted components. This will give the user an easier way of 
-reference to the forest of interest generated.
+The selected country and forest of interest appears in the top component as shown in the figure below.
 
 .. figure:: ../_static/Images/population.png
     :width: 700
@@ -54,7 +53,8 @@ reference to the forest of interest generated.
     :alt: service schema
     :figclass: align-center
 
-    Area of interest pre-filled in TroFMIS
+    Populated Area of interest in TroFMIS
+
 To understand the product, the user has been provided with product description, statistics and additional functionalities as 
 highlighted in the figure below.
 
@@ -65,7 +65,7 @@ highlighted in the figure below.
     :alt: service schema
     :figclass: align-center
     
-    FCD interpretation
+    FCD description and summary statistics.
 
 
 
