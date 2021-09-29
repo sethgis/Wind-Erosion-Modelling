@@ -5,9 +5,9 @@
 ***************************************************
 Forest Canopy Density (FCD)
 ***************************************************
-The FCD products in specified forests were generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
-Our approach made slight modification to the original FCD technique by excluding Principal Component Analysis (PCA),
-which is computational intensive over large areas, or when done using high resolution data. 
+The FCD product in specified forests are generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
+TroFMIS approach made slight modification to the original FCD technique, by excluding Principal Component Analysis (PCA),
+which is computational intensive over large areas, or when computed using high resolution data. 
 The modified FCD approach can be expressed as:
 
 .. math::
@@ -17,7 +17,7 @@ The modified FCD approach can be expressed as:
 
 
 Where, the Advanced Vegetation Index (AVI), like many vegetation index, gives precedence to the areas with healthier vegetation as
-compraed to the areas with scarce or novegetation. The AVI was computed as shown in the equation below.
+compraed to the areas with scarce or no vegetation. The AVI was computed as shown in the equation below.
 
 .. math::
 
@@ -34,7 +34,7 @@ SSI applied the numerical intergration of Blue and Green bands to identify shado
  SSI=(256-Blue)*(256-Green)*(256-Red)/3
  :label: SSI model	
 	
-The image summarises the steps of generating FCD prodct uisng earth observation methods.
+The figure below summarizes the steps of generating FCD product using earth observation based methods.
 
 .. figure:: ../_static/Images/fcd_image.png
     :width: 300
@@ -49,11 +49,11 @@ The image summarises the steps of generating FCD prodct uisng earth observation 
 
 FCD Data Encoding
 =============================
-The ultimate output of the FCD product was rescaled to percentage, using a linear regression modell.
-The values were later reclassified into various Forest Canopy classes.
-The percentage output values of this equation geovisualised areas of Dense Canopy, Moderate Canopy 
+The FCD product is rescaled to percentage, using a linear regression model.
+The values are later reclassified into various Forest Canopy classes.
+The percentage output values of this equation geovisualises areas of Dense Canopy, Moderate Canopy 
 and Open Canopy between 100 to 65, 65 to 45, 45 to 30 respectively, while 
-the Non- Forest areas were capped at below 30 percent as shown in the table below.
+the Non- Forest areas were capped at below 30 percent as captured in the table below.
 
 +------------------+-----------+---------+
 | Sensor/Dataset   | Min       | Max     | 
