@@ -11,10 +11,10 @@ of the sustainable development goal towards reduction of carbon emission, throug
 TroFMIS is keen on applying REDD+ monitoring guidelines outlined by various stakeholders such as UNCCD, UNFCC & FAO on tropical forest and carbon emission reporting.
 The products developed in TroFMIS that supports the tropical forest monitoring and surveilance activities include:
 
-	(i)  Forest Canopy Density (FCD)
-	(ii) Forest Canopy Changes (FCC)
-	(iii) Forest Disturbance Monitoring - Radar 
-	(iv) Forest Alerts - Radar
+	* Forest Canopy Density (FCD)
+	* Forest Canopy Changes (FCC)
+	* Forest Disturbance Monitoring - Radar 
+	* Forest Alerts - Radar
 	
 The products in TroFMIS enables key stakeholders and end users in monitoring the continous 
 vegetation change within their forests of interest, in addition to near real time monitoring of the 
@@ -46,7 +46,7 @@ Aknowledgement
 ------------------
 Special appreciation to `ICPAC <https://www.icpac.net/>`_ team in validation of the TroFMIS products and refining the concept for forest products generation and TroFMIS ergonomics. 
 Appreciation to the national patners who provided feedback on the products generated during stakeholder engagements.
-The `Joint Research Centre (JRC) <https://ec.europa.eu/info/departments/joint-research-centre_en/>`_ was a source of reference in developing the forest products methodologies.
+The `Joint Research Centre (JRC) <https://ec.europa.eu/info/departments/joint-research-centre_en/>`_ was a source of reference in aligning the forest products methodologies.
 
 
 License
