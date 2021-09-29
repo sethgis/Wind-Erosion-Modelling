@@ -5,12 +5,17 @@
 ***************************************************
 Forest Carbon Flux (Carbon Emission)
 ***************************************************
-The FCD products are reclassified into majorly 2 classes. The classified products (Forest and Non Forest areas) are then used to compute the difference, and highlight areas that deforestation or regrowth has taken place, this product is what is reffered to as carbon flux product in TroFMIS. 
-Carbon flux product provides information on estimated carbon transferred from the above ground pool to the atmosphere, or the vice versa (sequestration) when afforestation/reforestation occurs.
-The above ground biomass (AGB) stocks in the Tropical Forests of the IGAD region, are estimated based on the 2006 IPCC guidelines. For Tropical rain forests, the AGB is estimated at 310 Mg Biomass/ha. 
-Using the methodological guidelines from IPCC, this is converted to 145.7 Mg Carbon/ha (A carbon factor of 0.47 is used) and translated to 534 Mg CO2eq/ha 
-(the molecular formula of CO2 is used). 
-Based on the above Emission Factor, and the deforested forest areas (Activity Data), between two time intervals, Emission estimates (E) are computed as shown in the formula below.
+Carbon flux product is generated from the Reference product computed from the difference between the comparison period (2016) and consequent years (2017, 2018, 2019, 2020).
+
+The referenced products are first classified into two classes (Forest and Non Forest areas).
+The classified products are then used to compute the difference between the analysis period and the comparison period.
+The assumption made, is that the forest monitored is an instant forest, and any change in class depicts either carbon emitted or carbon enhanced.
+
+The resultant Carbon flux product, provides information on estimated carbon transferred from the above ground pool to the atmosphere, or the vice versa (sequestration) when afforestation/reforestation or regrowth occurs.
+To estimate the carbon stocks, the above ground biomass (AGB) stocks in the Tropical Forests of the Eastern Africa region, are estimated based on the 2006 IPCC guidelines.
+For Tropical rain forests, the AGB is estimated at 310 Mg Biomass/ha, which is converted to 145.7 Mg Carbon/ha and translated to 534 Mg CO2 eq/ha 
+(CO2 is carbon dioxide). 
+Based on the above emission factors, and the deforested forest areas (Activity Data), between two time intervals, Emission estimates (E) is estimated as shown in the formula below.
 
 .. math::
  E = AD*EF	 
@@ -33,27 +38,37 @@ The carbon flux was computed from the binary class of forest and non-forest clas
 | Dense Canopy     | 65        | 100     |               |  
 +------------------+-----------+---------+---------------+
 
-To compute the carbon flux, please consider the method below
-Class	Pixel Count
+To compute the carbon flux, please consider the steps as illsutrated below.
 
-  - Stable	11143909						
-  - Loss	391764						
-  - Gain	173370						
+* Surpose you get the pixel count as above, go ahead and calculate the net changes
+
++------------------+-----------+
+| Class            |Pixel Count|  
++==================+===========+
+| Stable           | 11143909  | 
++------------------+-----------+
+| Loss             |391764     |
++------------------+-----------+
+| Gain             | 173370    |
++------------------+-----------+					
 							
-Surpose you get the pixel count as above, go ahead and calculate the net changes							
+Compte the net change.							
 							
-Net Changes	Gain - Loss						
+Net Changes	Gain - Loss
+
+(173370 subtract 391764)
+
 Net Change	173370					
 																		
-After Getting the Net Change, some conditions have to be met							
+After Getting the net change, some conditions have to be met							
 							
-   - Condition 1	If the change is positive (+), then there was carbon enhancement						
-   - If the change is negative (-), then there is carbon loss						
-   - Get the carbon flux (emmission) by first transforming the Net Change to heactares, and then multiply by 145.7							
+   * If the change is positive (+), then there was carbon enhancement						
+   * If the change is negative (-), then there is carbon loss						
+   * Get the carbon flux (emmission) by first transforming the Net Change to hectares, and then multiply by 145.7 Mg C/ha							
 							
 Net Change (Ha)	1722.7					
 							
-   - Carbon Emmission	250997.39	C\Mg\ha		year = 2019 	
+   - Carbon Emmission	250997.39	Mg C/ha	per year	
 
 The figure below summarises the steps of computing the carbon flux in TroFMIS.
 
