@@ -3,19 +3,22 @@
 
 
 ***************************************************
-Forest Canopy Change 
+Forest Canopy Change (FCC)
 ***************************************************
+FCC product maps the drop or regrowth in canopy densities that have occured within a period, either as a difference from the 
+consequent years or a difference from a comparison (baseline) period i.e 2016.
+The computation of the difference highlights areas that have since experienced canopy disturbance, regrowth or are stable. 
+The computation is based on a simple image difference between the comparison period and analysis period.
+To compute FCC, two approaches are majorly employed, including.
 
-Forest Canopy Changes were generated using two routes.
-
-    - Changes based on the Reference year i.e 2016 (Reference Product).
-    - Changes based on the difference between the consquent year (Annual Product)
+       * Changes based on the Reference year i.e 2016 (Reference Product).
+       * Changes based on the difference between the consequent year (Annual Product).
 
 Reference Product
 ============================
-Reference Products are achieved after computing the difference between the compasrison year\base year (2016),
+Reference Products are achieved after computing the difference between the compasrison year\baseline year (2016),
 and the other consequent years i.e 2017, 2018, 2019 & 2020. This product detects the deforestation that occurs in comparison
-to the baseline year which is 2016. The output and statistics assumes the forest zones are instant forest.lassified as Forest Areas.
+to the baseline year which is 2016. The output and statistics assumes the forest zones are instant forest.
 Classifying the forest canopy densities, makes it possible to monitor forest disturbances every year, in each forest of interest.
 
 Annual Product
