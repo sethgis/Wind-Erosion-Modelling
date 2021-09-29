@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Compute Carbon Flux &mdash; Tropical Forest Monitoring and Surveilance System 1.0.0 documentation</title>
+  <title>Computing Carbon Flux &mdash; Tropical Forest Monitoring and Surveilance System 2.0.0 documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Compute Forest Alerts" href="Forest%20Alerts.html" />
-    <link rel="prev" title="Computing Forest Change" href="Forest%20Change.html" /> 
+    <link rel="next" title="Computing Forest Disturbance - Radar" href="Forest%20Alerts.html" />
+    <link rel="prev" title="Computing Forest Canopy Change (FCC)" href="Forest%20Change.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -101,17 +101,19 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data Sources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-data-source">Forest Product Data Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#id1">Data Source</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-coding">Forest Product Coding</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy">Forest Canopy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-change">Forest Change</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy-density-fcd">Forest Canopy Density (FCD)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy-change-fcc">Forest Canopy Change (FCC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#carbon-flux">Carbon Flux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-disturbance-and-alerts">Forest Disturbance and Alerts</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Introduction/faq.html">Frequently asked questions</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#installation-and-use-of-trofmis-service">Installation and use of TrofMIS Service</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/faq.html">Frequently Asked Questions (FAQ)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#use-of-trofmis">Use of TroFMIS</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#will-i-be-able-to-download-the-outputs-from-the-system-how-will-i-visualize-the-outputs">Will I be able to download the outputs from the system? How will I visualize the outputs?</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#do-i-need-to-download-a-32-bit-or-64-bit-version-of-qgis">Do I need to download a 32-bit or 64 bit version of QGIS?</a></li>
 </ul>
@@ -144,7 +146,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Introduction/faq.html#forest-alerts">Forest Alerts</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-will-the-user-receive-the-outputs">How will the user receive the outputs?</a><ul class="simple">
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/faq.html#how-will-the-user-receive-the-alerts">How will the user receive the alerts?</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -160,18 +162,28 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Canopy%20Disturbance.html">Canopy Disturbance</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Change.html">Forest Canopy Change (FCC)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Change.html#reference-product">Reference Product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Change.html#annual-product">Annual Product</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Carbon%20Emission.html">Forest Carbon Flux (Carbon Emmission)</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html">Vegetation Loss/Gain hotspots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Carbon%20Emission.html">Forest Carbon Flux (Carbon Emission)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html">Forest Disturbance and Surveilance - (Sentinel 1 Radar)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html#forest-canopy-disturbance-using-bivariate-radar-method">Forest Canopy Disturbance Using (Bivariate Radar Method).</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html#optical-based-method-sentinel-2">Optical Based Method - Sentinel 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Forest%20Products%20Generation/Forest%20Alerts.html#forest-surveilance-radar">Forest Surveilance - Radar</a></li>
 </ul>
 <p class="caption"><span class="caption-text">TroFMIS System Guide</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Service%20Guide.html">TrofMIS Service Guide</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Service%20Guide.html#system-selection">System Selection</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="Service%20Guide.html">TroFMIS Service Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Service%20Guide.html#system-selection">System Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Service%20Guide.html#user-registration">User Registration</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -179,13 +191,14 @@
 <li class="toctree-l1"><a class="reference internal" href="Forest%20Canopy%20Density.html">Computing Forest Canopy Density</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Forest%20Change.html">Computing Forest Change</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Change.html">Computing Forest Canopy Change (FCC)</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Compute Carbon Flux</a><ul class="simple">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Computing Carbon Flux</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html">Compute Forest Alerts</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html">Computing Forest Disturbance - Radar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html#compute-forest-surveilance">Compute Forest Surveilance</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -236,7 +249,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Compute Carbon Flux</li>
+      <li>Computing Carbon Flux</li>
     
     
 
@@ -248,23 +261,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="compute-carbon-flux">
-<h1>Compute Carbon Flux<a class="headerlink" href="#compute-carbon-flux" title="Permalink to this headline">¶</a></h1>
-<p>The canopy disturbance/forest change are generated from the simple image difference acquired from the conmparison of
-the Forest Canopy Density products.</p>
-<p>The disturbance are generated from the computation of canopy distrubance and comparison between the subsequent years.</p>
-<p>The computation is generated annually from 2016 as the reference years for the forest canopy.</p>
-<p>The outputs visualises the areas that are experiencing forest canopy drops or the quality of forest vegetation
-is reducing, and these are termed as Forest Canopy Disturbance or Loss.</p>
-<p>The areas that have increased the quality of vegetation are considered as areas with RegrowthGain,
-while the areas with unchanged pixels are considerered to be stable forest areas.</p>
-<p>The visualised outputs could be used to inform on generally the management practice to be applied in a give forest zone.
-A sharp decline of vegetation quality shows that the area is prone to negative anthropogenic activities, that affect the
-quality of tree cover generating throughout the season.</p>
-<p>The figure below shows the summary logic of computing the forest changes/canopy disturbance.</p>
-<div class="align-center figure" id="id1">
-<a class="reference internal image-reference" href="../_images/Canopy_Disturbance.png"><img alt="service schema" src="../_images/Canopy_Disturbance.png" style="width: 351px; height: 341px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Summary of computation of Forest Canopy Disturbance</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+  <div class="figure align-default">
+<img alt="../_images/trofmis3.png" src="../_images/trofmis3.png" />
+</div>
+<div class="section" id="computing-carbon-flux">
+<h1>Computing Carbon Flux<a class="headerlink" href="#computing-carbon-flux" title="Permalink to this headline">¶</a></h1>
+<p>The canopy disturbance/forest change are generated from the simple image difference acquired from the comparison of
+the Forest Canopy Density products of 2016 as baseline year, and subsequent years (2017, 2018, 2019, 2020).</p>
+<p>To compute the Carbon flux product in TroFMIS, a user will need to select the carbon flux product from the drop down list.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_images/analysis_selection.png"><img alt="service schema" src="../_images/analysis_selection.png" style="width: 700px; height: 350px;" /></a>
+</div>
+<p>Selection of the carbon flux product</p>
+<p>After the selection of the product, the user will need to populate the carbon flux form as shown below.</p>
+<div class="align-center figure">
+<a class="reference internal image-reference" href="../_images/flux.png"><img alt="service schema" src="../_images/flux.png" style="width: 700px; height: 350px;" /></a>
+</div>
+<p>Populating the carbon flux form.
+After populating, please click the generate button to generate the map and the statistics.</p>
+<div class="figure align-default">
+<img alt="../_images/trofmis3.png" src="../_images/trofmis3.png" />
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -276,15 +292,15 @@ quality of tree cover generating throughout the season.</p>
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="Forest%20Alerts.html" class="btn btn-neutral float-right" title="Compute Forest Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="Forest%20Change.html" class="btn btn-neutral float-left" title="Computing Forest Change" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Forest%20Alerts.html" class="btn btn-neutral float-right" title="Computing Forest Disturbance - Radar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Forest%20Change.html" class="btn btn-neutral float-left" title="Computing Forest Canopy Change (FCC)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, LocateIT Kenya Ltd.
+        &#169; Copyright 2020, LocateIT Limited.
       <span class="lastupdated">
         Last updated on True.
       </span>

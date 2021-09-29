@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Forest Canopy Density (FCD) &mdash; Tropical Forest Monitoring and Surveilance System 2.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Forest Canopy Change (FCC)" href="Forest%20Change.html" />
+    <link rel="prev" title="Data Source" href="../Introduction/data.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: green" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tropical Forest Monitoring and Surveilance System
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Preamble</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/general_information.html">General Information</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#get-in-touch-with-the-team">Get in touch with the team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#authors">Authors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#aknowledgement">Aknowledgement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/general_information.html#license">License</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#id1">Data Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Introduction/data.html#forest-product-coding">Forest Product Coding</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy-density-fcd">Forest Canopy Density (FCD)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-canopy-change-fcc">Forest Canopy Change (FCC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#carbon-flux">Carbon Flux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Introduction/data.html#forest-disturbance-and-alerts">Forest Disturbance and Alerts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">TroFMIS Data Processing</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Forest Canopy Density (FCD)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcd-data-encoding">FCD Data Encoding</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Change.html">Forest Canopy Change (FCC)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Forest%20Change.html#reference-product">Reference Product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Forest%20Change.html#annual-product">Annual Product</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Carbon%20Emission.html">Forest Carbon Flux (Carbon Emission)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html">Forest Disturbance and Surveilance - (Sentinel 1 Radar)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Forest%20Alerts.html#forest-canopy-disturbance-using-bivariate-radar-method">Forest Canopy Disturbance Using (Bivariate Radar Method).</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Forest%20Alerts.html#optical-based-method-sentinel-2">Optical Based Method - Sentinel 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Forest%20Alerts.html#forest-surveilance-radar">Forest Surveilance - Radar</a></li>
+</ul>
+<p class="caption"><span class="caption-text">TroFMIS Data Upload</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Service%20Guide.html">TroFMIS Service Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Data%20Uploading/Service%20Guide.html#system-selection">System Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Data%20Uploading/Service%20Guide.html#user-registration">User Registration</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Forest%20Canopy%20Density.html">Computing Forest Canopy Density</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Forest%20Change.html">Computing Forest Canopy Change (FCC)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Carbon%20Flux.html">Computing Carbon Flux</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Forest%20Alerts.html">Computing Forest Disturbance - Radar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data%20Uploading/Forest%20Alerts.html#compute-forest-surveilance">Compute Forest Surveilance</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tropical Forest Monitoring and Surveilance System</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Forest Canopy Density (FCD)</li>
+    
+    
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="figure align-default">
+<img alt="../_images/trofmis3.png" src="../_images/trofmis3.png" />
+</div>
+<div class="section" id="forest-canopy-density-fcd">
+<h1>Forest Canopy Density (FCD)<a class="headerlink" href="#forest-canopy-density-fcd" title="Permalink to this headline">¶</a></h1>
+<p>The FCD product in specified forests are generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002).
+TroFMIS approach made slight modification to the original FCD technique, by excluding Principal Component Analysis (PCA),
+which is computational intensive over large areas, or when computed using high resolution data.
+The modified FCD approach can be expressed as:</p>
+<div class="math notranslate nohighlight">
+\[FCD=√(AVI × SSI+1)-1
+:label: FCD model\]</div>
+<p>Where, the Advanced Vegetation Index (AVI), like many vegetation index, gives precedence to the areas with healthier vegetation as
+compraed to the areas with scarce or no vegetation. The AVI was computed as shown in the equation below.</p>
+<div class="math notranslate nohighlight">
+\[AVI =  ((NIR+1)*(65536 -Red))*1/3
+:label: AVI model\]</div>
+<p>The AVI was directly fused with Scaled Shadow Index (SSI), to yield the ultimate forest canopy densities.
+i.e. areas with canopy cover while segregating areas with very little or no vegetation.
+SSI applied the numerical intergration of Blue and Green bands to identify shadow covered areas as shown in the equation below.</p>
+<div class="math notranslate nohighlight" id="equation-ssi-model">
+<span class="eqno">(1)<a class="headerlink" href="#equation-ssi-model" title="Permalink to this equation">¶</a></span>\[SSI=(256-Blue)*(256-Green)*(256-Red)/3\]</div>
+<p>The figure below summarizes the steps of generating FCD product using earth observation based methods.</p>
+<div class="align-center figure" id="id1">
+<a class="reference internal image-reference" href="../_images/fcd_image.png"><img alt="service schema" src="../_images/fcd_image.png" style="width: 300px; height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">FCD computation summary.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="fcd-data-encoding">
+<h2>FCD Data Encoding<a class="headerlink" href="#fcd-data-encoding" title="Permalink to this headline">¶</a></h2>
+<p>The FCD product is rescaled to percentage, using a linear regression model.
+The values are later reclassified into various Forest Canopy classes.
+The percentage output values of this equation geovisualises areas of Dense Canopy, Moderate Canopy
+and Open Canopy between 100 to 65, 65 to 45, 45 to 30 respectively, while
+the Non- Forest areas were capped at below 30 percent as captured in the table below.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 29%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Sensor/Dataset</p></th>
+<th class="head"><p>Min</p></th>
+<th class="head"><p>Max</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Non Forest</p></td>
+<td><p>0</p></td>
+<td><p>30</p></td>
+</tr>
+<tr class="row-odd"><td><p>Open Canopy</p></td>
+<td><p>30</p></td>
+<td><p>45</p></td>
+</tr>
+<tr class="row-even"><td><p>Moderate Canopy</p></td>
+<td><p>45</p></td>
+<td><p>65</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dense Canopy</p></td>
+<td><p>65</p></td>
+<td><p>100</p></td>
+</tr>
+</tbody>
+</table>
+<p>To compute the FCD output, the figure below summarises the steps applied in the computation.</p>
+<div class="align-center figure" id="id2">
+<a class="reference internal image-reference" href="../_images/fcd_flowchart.png"><img alt="service schema" src="../_images/fcd_flowchart.png" style="width: 350px; height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">FCD computation summary.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default">
+<img alt="../_images/trofmis3.png" src="../_images/trofmis3.png" />
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Forest%20Change.html" class="btn btn-neutral float-right" title="Forest Canopy Change (FCC)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../Introduction/data.html" class="btn btn-neutral float-left" title="Data Source" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, LocateIT Limited.
+      <span class="lastupdated">
+        Last updated on True.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

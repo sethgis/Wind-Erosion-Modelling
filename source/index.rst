@@ -42,27 +42,27 @@ monitoring and assess forest activities, in order to achieve sustainable natural
 
    /Introduction/general_information
    /Introduction/data
-   /Introduction/faq
+
    
 
 .. toctree::
    :maxdepth: 4
-   :caption: Forest Product Background
+   :caption: TroFMIS Data Processing
 
-   Forest Products Generation/Forest Canopy Density
-   Forest Products Generation/Forest Change
-   Forest Products Generation/Carbon Emission
-   Forest Products Generation/Forest Alerts
+   Product Data Processing/Forest Canopy Density
+   Product Data Processing/Forest Change
+   Product Data Processing/Carbon Emission
+   Product Data Processing/Forest Alerts
 
 .. toctree::
    :maxdepth: 3
-   :caption: TroFMIS System Guide
+   :caption: TroFMIS Data Upload
 
-   Service/Service Guide
-   Service/Forest Canopy Density
-   Service/Forest Change
-   Service/Carbon Flux
-   Service/Forest Alerts
+   Data Uploading/Service Guide
+   Data Uploading/Forest Canopy Density
+   Data Uploading/Forest Change
+   Data Uploading/Carbon Flux
+   Data Uploading/Forest Alerts
 
    
 

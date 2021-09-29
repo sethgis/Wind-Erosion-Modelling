@@ -3,21 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Tropical Forest Monitoring and Surveilance System in the IGAD Region
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Tropical Forest Monitoring and Surveilance System in the Eastern Africa Region
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 	.. image:: ../source/_static/Images/IGAD.png
 	   :height: 277
 	   :width: 550
 	   :alt: LocateIT
 
-The IGAD Climate Prediction and Applications Centre (ICPAC) under their Global Monitoring for Environment 
-and Security and Africa (GMES and Africa) Support Programme, intended to implement Earth Observation 
-System for Tropical Forest Surveillance in addition to Monitoring and Assessment (TFSMA) application. 
-The application’s main aim was to use methods/algorithms and tools for processing EO data into geospatial 
-data products for tropical forest monitoring for REDD+ in response to African needs in water, 
-natural resources, marine, and coastal areas as well as address global needs to manage the environment, 
-mitigate climate change and ensure civil security.
+The IGAD Climate Prediction and Applications Centre (ICPAC), under the Global Monitoring for Environment 
+and Security & Africa (GMES & Africa) project, implemented Earth Observation based 
+System for Tropical Forest Surveillance, Monitoring and Assessment (TFSMA) Service. 
+The application’s main aim is to use Earth Observation methods/algorithms and tools to generate geospatial 
+data products for tropical forest monitoring. 
+
+The overall TroFMIS goal aligns with GMES & Africa thematic chapters identified and agreed on for the Action Plan, which includes:
+
+* Long term Management of Natural Resources; 
+* Water Resource Management; 
+* Marine & Coastal Areas Management; 
+* Food Security and Rural Development; 
+* Climate Variability and Change; 
+* Disaster Risk Reduction; 
+* Health; 
+* Conflict and Political Crisis, and 
+* Infrastructure and Territorial Development.
+
+
+Thus, TroFMIS implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
+monitoring and assess forest activities, in order to achieve sustainable natural resources management and use.
+
+
 
 
 .. toctree::
@@ -26,30 +42,29 @@ mitigate climate change and ensure civil security.
 
    /Introduction/general_information
    /Introduction/data
-   /Introduction/faq
+
    
 
 .. toctree::
    :maxdepth: 4
-   :caption: Forest Product Background
+   :caption: TroFMIS Data Processing
 
-   Forest Products Generation/Forest Canopy Density
-   Forest Products Generation/Forest Change
-   Forest Products Generation/Carbon Emission
-   Forest Products Generation/Forest Alerts
+   Product Data Processing/Forest Canopy Density
+   Product Data Processing/Forest Change
+   Product Data Processing/Carbon Emission
+   Product Data Processing/Forest Alerts
 
 .. toctree::
    :maxdepth: 3
-   :caption: TroFMIS System Guide
+   :caption: TroFMIS Data Upload
 
-   Service/Service Guide
-   Service/Forest Canopy Density
-   Service/Forest Change
-   Service/Carbon Flux
-   Service/Forest Alerts
+   Data Uploading/Service Guide
+   Data Uploading/Forest Canopy Density
+   Data Uploading/Forest Change
+   Data Uploading/Carbon Flux
+   Data Uploading/Forest Alerts
 
    
-
 
 ==================
 Indices and tables
