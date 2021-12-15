@@ -8,7 +8,7 @@ Soil surfaces with high soil crust factor tend to form a resistive layer to wind
 erosion as a protective mechanism (Fenta et al., 2020). 
 This happens in places that are highly susceptible to wind erosion. 
 
-To 
+To compute soil crust factor, please follow the illustration shown below.
 
 .. figure:: ../_static/Images/SC.png
 
