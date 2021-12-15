@@ -56,7 +56,7 @@ tested ranges as applied by (Fryrear et al., 1998).
 
 
   
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG  
   
 
 
