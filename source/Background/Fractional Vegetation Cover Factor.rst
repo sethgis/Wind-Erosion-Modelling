@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/trofmis3.png
+.. figure:: ../_static/Images/trofmis3.PNG
 
 
 
@@ -19,14 +19,14 @@ equation below (Swanker et al., 2018), the mean NDVI data was obtained
 as an aggregate of time series observations for the entire modelling period 2019.
 
 
-.. figure:: ../_static/Images/FC.png
+.. figure:: ../_static/Images/FC.PNG
 
 
 
 
 
     
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG  
     
 .. toctree::
    :maxdepth: 3
