@@ -21,7 +21,7 @@ For the specific countries, a user should define the country of interest, as wel
 
 
 
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 .. toctree::
    :maxdepth: 3
