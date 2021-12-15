@@ -36,7 +36,7 @@ LaSWE system was implemented by RCMRD under the Global Monitoring for Environmen
 project. A project co-funded by the African Union (AU) and the European Union (EU).
 
 Contributors to the project
-includeD Mr. Degello, Mr. David Ongo, Mr. Ngugi, Dr. Anthony Odongo, Prof. Elias Acacuwun, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Derick Ongeri,, Mr. Collins Asega, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
+included Dr. Emmanuel Nkurunziza, Mr. Sendabo Degelo , Mr. David Ongo, Mr. Ngugi, Dr. Anthony Odongo, Prof. Elias Acacuwun, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Derick Ongeri,, Mr. Collins Asega, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
 .. figure:: ../_static/Images/RC.PNG
 	 :height: 94
