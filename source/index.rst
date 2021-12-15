@@ -6,7 +6,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Land Susceptibility to Wind Erosion (LaSWE)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-	.. image:: ../source/_static/Images/RC2.png
+	.. image:: ../source/_static/Images/RC2.PNG
 	  
 
 The Regional Centre for Mapping of Resource for Development (RCMRD), under the Global Monitoring for Environment 
