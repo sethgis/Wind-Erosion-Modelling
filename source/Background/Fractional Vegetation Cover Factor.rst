@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/trofmis3.PNG
+.. figure:: ../_static/Images/wind.PNG
 
 
 
