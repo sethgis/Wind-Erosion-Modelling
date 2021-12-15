@@ -10,7 +10,7 @@ Land Susceptibility to Wind Erosion (LaSWE)
 	  
 
 The Regional Centre for Mapping of Resource for Development (RCMRD), under the Global Monitoring for Environment 
-and Security & Africa (GMES & Africa) project, implemented Earth Observation based 
+and Security & Africa (GMES & Africa) project under the consultancy of LocateIT Limited Conmpany, implemented Earth Observation based 
 System for Land Susceptibility to Wind Erosion (LaSWE). 
 The application’s main aim was to use Earth Observation methods/algorithms and tools to generate geospatial 
 data products for Wind Erosion Modelling. 
