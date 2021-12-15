@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 
@@ -10,7 +10,7 @@ TroFMIS approach made slight modification to the original FCD technique, by excl
 which is computational intensive over large areas, or when computed using high resolution data. 
 The modified FCD approach can be expressed as:
 
-.. figure:: ../_static/Images/CE.png
+.. figure:: ../_static/Images/CE.PNG
 
 Where: 
   - U is mean wind speed (m/s) at 2-10 m height in 
@@ -49,7 +49,7 @@ tested ranges as applied by (Fryrear et al., 1998).
 
 
   
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG
   
 
 
