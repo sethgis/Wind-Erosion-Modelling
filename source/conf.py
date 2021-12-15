@@ -17,12 +17,12 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Tropical Forest Monitoring and Surveilance System'
-copyright = '2020, LocateIT Limited'
+project = 'Land Susceptibility to Wind Erosion'
+copyright = '2021, LocateIT Limited'
 author = 'LocateIT Limited'
 
 # The full version, including alpha/beta/rc tags
-release = '2.0.0'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -67,7 +67,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     #'vcs_pageview_mode': '',
-    'style_nav_header_background': 'green',
+    'style_nav_header_background': 'black',
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,

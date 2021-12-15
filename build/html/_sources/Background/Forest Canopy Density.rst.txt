@@ -1,9 +1,9 @@
-.. figure:: ../_static/Images/trofmis3.png
+.. figure:: ../_static/Images/wind.png
 
 
 
 ***************************************************
-Forest Canopy Density (FCD)
+Climate Erosivity Factor (CE)
 ***************************************************
 The FCD product in specified forests are generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
 TroFMIS approach made slight modification to the original FCD technique, by excluding Principal Component Analysis (PCA),
@@ -47,7 +47,7 @@ The figure below summarizes the steps of generating FCD product using earth obse
 
 
 
-FCD Data Encoding
+CE value encoding
 =============================
 The FCD product is rescaled to percentage, using a linear regression model.
 The values are later reclassified into various Forest Canopy classes.
@@ -83,7 +83,7 @@ To compute the FCD output, the figure below summarises the steps applied in the 
 
 
   
-.. figure:: ../_static/Images/trofmis3.png  
+.. figure:: ../_static/Images/wind.png  
   
 
 

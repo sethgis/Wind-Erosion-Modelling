@@ -4,20 +4,19 @@
    contain the root `toctree` directive.
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Tropical Forest Monitoring and Surveilance System in the Eastern Africa Region
+Land Susceptibility to Wind Erosion (LaSWE)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-	.. image:: ../source/_static/Images/IGAD.png
-	   :height: 277
-	   :width: 550
-	   :alt: LocateIT
+	.. image:: ../source/_static/Images/RC2.png
+	  
 
-The IGAD Climate Prediction and Applications Centre (ICPAC), under the Global Monitoring for Environment 
+The Regional Centre for Mapping of Resource for Development (RCMRD), under the Global Monitoring for Environment 
 and Security & Africa (GMES & Africa) project, implemented Earth Observation based 
-System for Tropical Forest Surveillance, Monitoring and Assessment (TFSMA) Service. 
-The application’s main aim is to use Earth Observation methods/algorithms and tools to generate geospatial 
-data products for tropical forest monitoring. 
+System for Land Susceptibility to Wind Erosion (LaSWE). 
+The application’s main aim was to use Earth Observation methods/algorithms and tools to generate geospatial 
+data products for Wind Erosion Modelling. 
 
-The overall TroFMIS goal aligns with GMES & Africa thematic chapters identified and agreed on for the Action Plan, which includes:
+The overall LaSWE goal aligns with GMES & Africa thematic chapters identified and 
+agreed on for the Action Plan, which includes:
 
 * Long term Management of Natural Resources; 
 * Water Resource Management; 
@@ -30,8 +29,9 @@ The overall TroFMIS goal aligns with GMES & Africa thematic chapters identified 
 * Infrastructure and Territorial Development.
 
 
-Thus, TroFMIS implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
-monitoring and assess forest activities, in order to achieve sustainable natural resources management and use.
+Thus, LaSWE implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
+monitoring and assessing wind erosion impacts in the Eastern Africa Region, 
+in order to achieve sustainable environemntal resource management and use.
 
 
 
@@ -51,21 +51,33 @@ monitoring and assess forest activities, in order to achieve sustainable natural
    :maxdepth: 4
    :caption: Background
 
-   Background/Forest Canopy Density
-   Background/Forest Change
-   Background/Carbon Emission
-   Background/Forest Alerts
+   Background/Background to WEM
+   Background/Climate Erosivity Factor
+   Background/Erodible Fraction Factor
+   Background/Soil Crust Factor
+   Background/Fractional Vegetation Cover Factor
+   Background/Soil Roughness Factor
+   Background/ILSWE
 
 .. toctree::
    :maxdepth: 3
-   :caption: TroFMIS Guide
+   :caption: LaSWE System Guide
 
-   Guide/Service Guide
-   Guide/Forest Canopy Density
-   Guide/Forest Change
-   Guide/Carbon Flux
-   Guide/Forest Alerts
+   Guide/Background to WEM
+   Guide/Climate Erosivity Factor
+   Guide/Erodible Fraction Factor
+   Guide/Soil Crust Factor
+   Guide/Fractional Vegetation Cover Factor
+   Guide/Soil Roughness Factor
+   Guide/ILSWE
 
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Conclusion and Reccomendations
+
+   Conclusion/conclusion
+ 
    
 
 ==================
