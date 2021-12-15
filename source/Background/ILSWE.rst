@@ -24,7 +24,7 @@ K	Soil Roughness Factor
 
 The flow chart that summarises the methodology is as illustrated below.
 
-.. figure:: ../_static/Images/LI.PNG
+.. figure:: ../_static/Images/IL.png
 
 
 
