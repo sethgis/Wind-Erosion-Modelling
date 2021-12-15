@@ -59,7 +59,7 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 
 
 
 html_theme_options = {
-	'canonical_url': '',
+    'canonical_url': '',
     'analytics_id': '',  #  Provided by Google in your dashboard
     #'analytics_anonymize_ip': False,
     'logo_only': False,
