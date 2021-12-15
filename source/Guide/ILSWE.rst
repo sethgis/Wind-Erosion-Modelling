@@ -68,7 +68,7 @@ The figure below summarises the steps of computing the carbon flux in TroFMIS.
 
     Summary of Carbon flux computation.
     
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
     
 .. toctree::
    :maxdepth: 3
