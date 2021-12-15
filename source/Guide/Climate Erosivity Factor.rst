@@ -1,14 +1,21 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 
 ***************************************************
 Computing Climate Erosivity Factor (CE)
 ***************************************************
-The FCD product in specified forests are generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
-TroFMIS approach made slight modification to the original FCD technique, by excluding Principal Component Analysis (PCA),
-which is computational intensive over large areas, or when computed using high resolution data. 
-The modified FCD approach can be expressed as:
+To compute CE in the LaSWE system. Please follow the steps as highlighted below.
+
+
+
+
+
+
+
+
+
+
 
 .. figure:: ../_static/Images/CE.png
 
