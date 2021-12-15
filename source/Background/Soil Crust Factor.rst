@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/trofmis3.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 ==========================================================
@@ -13,7 +13,7 @@ The areas susceptible to wind erosion may try to shield themselves
 from destructive forces such as wind erosion. 
 The equation below is applied in the evaluation of SCF.
 
-.. figure:: ../_static/Images/SC.png
+.. figure:: ../_static/Images/SC.PNG
 
 
 Where:
@@ -34,6 +34,6 @@ sensitivity map showing high and low areas of soil crust.
 
 
 
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
   
 
