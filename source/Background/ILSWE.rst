@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 
@@ -24,11 +24,11 @@ K	Soil Roughness Factor
 
 The flow chart that summarises the methodology is as illustrated below.
 
-.. figure:: ../_static/Images/IL.png
+.. figure:: ../_static/Images/IL.PNG
 
 
 
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
     
 .. toctree::
    :maxdepth: 3
