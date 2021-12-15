@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 ***************************************************
 Soil Roughness Factor (SR)
@@ -15,7 +15,7 @@ classes will be assigned surface roughness values as captured in table below.
 
 
 
-.. figure:: ../_static/Images/LU.png
+.. figure:: ../_static/Images/LU.PNG
 
 The figures represent C factor values as treclassification values for soil roughness factor
 derived from land use land cover.
@@ -26,7 +26,7 @@ sigmoidal function, which assigns the highest
 sensitivity (1) to the bare areas and the lowest sensitivity (0) to the forested areas.
 
     
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG  
     
 .. toctree::
    :maxdepth: 3
