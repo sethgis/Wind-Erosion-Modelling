@@ -17,7 +17,7 @@ To compute CE in the LaSWE system. Please follow the steps as highlighted below.
 
 
 
-.. figure:: ../_static/Images/CE.png
+.. figure:: ../_static/Images/CE.PNG
 
 Where: 
   - U is mean wind speed (m/s) at 2-10 m height in 
