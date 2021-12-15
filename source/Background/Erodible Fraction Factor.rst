@@ -1,5 +1,5 @@
 
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 ***************************************************
@@ -10,7 +10,7 @@ chemical and physical characteristics of the
 soil (Fryrear et al., 1998) as expressed in equation below.
 
 
-.. figure:: ../_static/Images/EF.png
+.. figure:: ../_static/Images/EF.PNG
 
 Where:
 
@@ -40,7 +40,7 @@ showing high and low EF.
 
 
 
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 .. toctree::
    :maxdepth: 3
