@@ -31,6 +31,6 @@ sensitivity map showing high and low areas of soil crust.
 
 
 
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
   
 
