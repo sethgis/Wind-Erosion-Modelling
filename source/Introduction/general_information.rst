@@ -38,7 +38,7 @@ project. A project co-funded by the African Union (AU) and the European Union (E
 Contributors to the project
 included Dr. Emmanuel Nkurunziza, Mr. Sendabo Degelo , Mr. David Ongo, Mr. Ngugi, Dr. Anthony Odongo, Prof. Elias Acacuwun, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Derick Ongeri,, Mr. Collins Asega, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
-.. figure:: ../_static/Images/RC.PNG
+.. figure:: ../_static/Images/LILI.PNG
 	 :height: 94
 	 :width: 550
 	 :alt: partners
