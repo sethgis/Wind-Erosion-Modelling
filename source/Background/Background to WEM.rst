@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 
@@ -52,7 +52,7 @@ opposing forces such as vegetation cover, artificial barriers, and the soil
 crusting effect believed to be the coping mechanism of the soil particles to resist erosion, 
 which majorly affects the arid and semi-arid areas, among others (D.W. Fryrear et al., 1994) 
 
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 
