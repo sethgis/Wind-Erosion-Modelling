@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 ***************************************************
 Computing Soil Roughness Factor (SR)
@@ -20,7 +20,7 @@ shown below.
 
 
     
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
     
 .. toctree::
    :maxdepth: 3
