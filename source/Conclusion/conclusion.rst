@@ -1,4 +1,4 @@
-.. figure:: ../_static/Images/wind.png
+.. figure:: ../_static/Images/wind.PNG
 
 
 ==========================================
@@ -97,7 +97,7 @@ we hope that there will be a progressive surge towards restoration of sustainabl
 African land.
    
 
-.. figure:: ../_static/Images/wind.png 
+.. figure:: ../_static/Images/wind.PNG 
     
 .. toctree::
    :maxdepth: 3
