@@ -7,23 +7,17 @@ This is the availability of features on the surface that act as barriers and
 dissipates against the erosive force of wind. 
 Surface roughness is also defined by the availability of vegetation 
 cover that has a sheltering effect on soil particle against detachment 
-and transportation by wind. Land cover classes will be reclassified into 
-five major classes i.e. water, forest, perennial croplands, sparse 
-vegetation and bare areas to define the surface roughness as prescribed 
-by Fryrear et al. (1998) and Swanker et al. (2018). The reclassified land 
-classes will be assigned surface roughness values as captured in table below.
+and transportation by wind. 
+In computing Soil roughness factor in the system, the user should follow the illustration as is 
+shown below.
 
 
 
-.. figure:: ../_static/Images/LU.png
 
-The figures represent C factor values as treclassification values for soil roughness factor
-derived from land use land cover.
 
-To factor in the inverse relationship between surface roughness and wind erosion, 
-the assigned values will be further fuzzified on a 0 to 1 scale using a reducing 
-sigmoidal function, which assigns the highest 
-sensitivity (1) to the bare areas and the lowest sensitivity (0) to the forested areas.
+.. figure:: ../_static/Images/SR.png
+
+
 
     
 .. figure:: ../_static/Images/wind.png  
