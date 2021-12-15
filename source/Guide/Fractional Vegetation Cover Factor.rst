@@ -22,13 +22,13 @@ as an aggregate of time series observations for the entire modelling period 2019
 .. figure:: ../_static/Images/FC.png
 
 
-To compute the Fractional Cover in the system, the illustration below is adequate to generate the FC product.
+To compute the Fractional Cover in the system, the illustration above is adequate to generate the FC product.
 
 
-.. figure:: ../_static/Images/FC.png
+
 
     
-.. figure:: ../_static/Images/wind.png  
+.. figure:: ../_static/Images/wind.PNG 
     
 .. toctree::
    :maxdepth: 3
