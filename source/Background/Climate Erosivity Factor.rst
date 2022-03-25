@@ -5,10 +5,7 @@
 ***************************************************
 Climate Erosivity Factor (CE)
 ***************************************************
-The FCD product in specified forests are generated using the Forest Canopy Density Model (FCD algorithm), as applied by (Rikimaru, et al, 2002). 
-TroFMIS approach made slight modification to the original FCD technique, by excluding Principal Component Analysis (PCA),
-which is computational intensive over large areas, or when computed using high resolution data. 
-The modified FCD approach can be expressed as:
+Climate Erosivity is computed applying the variables as represented in the equation below. The variables are described in the following sections below.
 
 .. figure:: ../_static/Images/CE.PNG
 
@@ -41,7 +38,7 @@ datasets may not necessarily come with the expected value ranges.
 However, for generating a 
 sensitivity map, the final CE will be fuzzified by a linear function to yield 
 values that are between 0 and 1 scale. Fuzzification saves a user 
-the complexities of rescaling their values to laboratory 
+the complexities of rescaling their values to meteorological
 tested ranges as applied by (Fryrear et al., 1998). 
 
 
