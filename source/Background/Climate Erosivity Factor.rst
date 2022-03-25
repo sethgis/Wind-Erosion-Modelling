@@ -5,7 +5,11 @@
 ***************************************************
 Climate Erosivity Factor (CE)
 ***************************************************
-Climate Erosivity is computed applying the variables as represented in the equation below. The variables are described in the following sections below.
+Climate Erosivity is the ability of climatic condition in a particular area to yield an environment conducive for wind erosion. For wind erosion to occur: Threshold velocity of the wind must be attained to initiate particle movement. Soil particle size, shape, weight and mutual adherence of the particles, must be favorable. Soil surface must have minimal surface barrier that can stop movement of soil particles
+
+Normally, the variables that are inplay, varies from climatic variables such as wind speed, potential evapotranspiration, rainfal amount, all being a fctor of time.  
+
+Climate Erosivity is computed with the variables as represented in the equation below. The variables are described in the following sections below.
 
 .. figure:: ../_static/Images/CE.PNG
 
