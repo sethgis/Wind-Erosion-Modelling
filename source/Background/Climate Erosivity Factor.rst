@@ -22,15 +22,15 @@ Where:
 Wind speed U and soil moisture (PET and P) 
 are directly proportional to climatic erosivity while 
 (PET) is inversely proportional to the climatic erosivity. 
-When the PET is greater than the precipitation the moisture is 
-removed from the soil, the adhesive force reduces, as a result 
-the weight reduces making the particle susceptible to detachment 
+When the PET is greater than the precipitation, the moisture is 
+evaporated from the soil, the adhesive force reduces, as a result 
+the weight reduces making the particle susceptible to dettachment 
 and transportation by wind. 
-When the Precipitation is higher than the evapotranspiration, 
-the water is absorbed by soil particles, the particles 
-increases in weight due to mutual adherence to surrounding particles, 
+When the Precipitation is higher than potential evapotranspiration, 
+moisture is absorbed by soil particles, the particles 
+increases in weight due to adhesive force to surrounding particles, 
 as a result the soil particles are less susceptible to detachment  and 
-transportation by wind.
+transportation by wind the wind force.
 
   Note: 
 
