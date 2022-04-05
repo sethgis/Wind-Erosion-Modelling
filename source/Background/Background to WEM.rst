@@ -22,16 +22,19 @@ The scientific studies such as this, is geared towards ganering infromation that
 narual resources such as soil.
 
 The literature on wind erosion, especially in agricultural soils, is categorized into three major areas: 
+
        * Studies on basic process and mechanisms of wind erosion e.g. Lyles (1977, 1988).  
        * Documentation of wind erosion in different environments e.g. Borelli et al. (2014, 2015a); Fenta et al. (2020). 
        * Modelling approaches to wind erosion e.g. Hagen (2010); Jarrah et al. 
 (2020); Fryrear et al. (1998, 2001); Tatarko and Wagner (2007); Borelli et al. (2015b, 2017). 
+
 In some cases, the same literature may deal with more than one aspect as shown above.
 
 
 Understanding the concepts of Soil Abrasion
 *************************************************
 Soil particles abrasion is dependent on external forces, that combines with various soil particle characteristics to cause motion in the direction of either the wind or water forces. The external forces i.e. wind and water requires that the following:
+
       * Minimum threshold force be attained, in order to initiate particle movement. 
       * Soil particle has to be light enough, devoid of air spaces, that causes floating tube effect, and
       * The particles location be devoid of barriers such as vegetation, artificial blockages among others (D.W. Fryrear et al., 1994), to allow for smooth 
