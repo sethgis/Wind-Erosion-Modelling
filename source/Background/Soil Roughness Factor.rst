@@ -5,12 +5,19 @@ Soil Roughness Factor (SR)
 ***************************************************
 This is the availability of features on the surface that act as barriers and 
 dissipates against the erosive force of wind. 
-Surface roughness is also defined by the availability of vegetation 
+
+Surface roughness often shortened to roughness, is also a component of surface texture. 
+It is quantified by the deviations in the direction of the normal vector of a real surface from its ideal form. 
+If these deviations are large, the surface is rough; if they are small, the surface is smooth. Thus, it becomes a function of the rise and fall of land (Digital Elevation or terrain Model)
+
+Surface roughness can also be defined by the availability of various land use classes such as vegetation 
 cover that has a sheltering effect on soil particle against detachment 
-and transportation by wind. Land cover classes will be reclassified into 
+and transportation by wind. For this reason, the availability of land cover data was guranteed, and was used as a proxy to surface roughness factor.
+Land cover classes was reclassified into 
 five major classes i.e. water, forest, perennial croplands, sparse 
 vegetation and bare areas to define the surface roughness as prescribed 
-by Fryrear et al. (1998) and Swanker et al. (2018). The reclassified land 
+by Fryrear et al. (1998) and Swanker et al. (2018). 
+The reclassified land 
 classes will be assigned surface roughness values as captured in table below.
 
 
