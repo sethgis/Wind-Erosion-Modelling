@@ -1,8 +1,8 @@
 
 
-***************************************************
-Background to Wind Erosion Modelling
-***************************************************
+***********************************************************************
+Background to Land Susceptibility to Wind Erosion Modelling
+***********************************************************************
 Wind erosion is a natural phenomenon that takes place when the soil surface is exposed to 
 the force of the wind, and the soil particles are loose enough to be detached and transported by the wind. 
 Terrestrial vegetation including crops depends on appropriate top soil with nutrients as a 
