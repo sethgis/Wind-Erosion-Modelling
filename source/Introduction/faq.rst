@@ -22,8 +22,7 @@ please contact the `Regional Centre for Mapping of Resources for Development (RC
 Who are the authors and implementors of this system and products?
 ----------------------------------------------------------------------
 TroFMIS system was implemented by RCMRD under the Global Monitoring for Environment and Security & Africa(GMES & Africa)
-project. A project co-funded by the African Union (AU) and the European Union (EU). This was implemented in patnership with 
-  `LocateIT Limited  <https://locateit.co.ke/>`_., a private company that focuses on geospatial mapping and geographic information communication technology.
+project. A project co-funded by the African Union (AU) and the European Union (EU). This was implemented in patnership with `LocateIT Limited  <https://locateit.co.ke/>`_., a private company that focuses on geospatial mapping and geographic information communication technology.
 
 
 What is Wind Erosion
