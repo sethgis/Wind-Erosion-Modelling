@@ -1,7 +1,4 @@
 
-.. figure:: ../_static/Images/wind.png
-
-
 ==========================================
 Frequently Asked Question (FAQ)
 ==========================================
@@ -61,6 +58,9 @@ Why did you use land cover in place or land roughness ?
 -----------------------------------------------------------------------------
 In places where there is lack of roughness data, Land use land cover is reclassified with C fator values, that
 assigns weights for various land use land cover classes. This data can be used as a proxy tosurface roughness.
+
+
+.. figure:: ../_static/Images/wind.PNG
 
 
   
