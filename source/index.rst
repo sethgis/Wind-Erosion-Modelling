@@ -18,15 +18,15 @@ data products for Wind Erosion Modelling.
 The overall LaSWE goal aligns with GMES & Africa thematic chapters identified and 
 agreed on for the Action Plan, which includes:
 
-* Long term Management of Natural Resources; 
-* Water Resource Management; 
-* Marine & Coastal Areas Management; 
-* Food Security and Rural Development; 
-* Climate Variability and Change; 
-* Disaster Risk Reduction; 
-* Health; 
-* Conflict and Political Crisis, and 
-* Infrastructure and Territorial Development.
+	* Long term Management of Natural Resources; 
+	* Water Resource Management; 
+	* Marine & Coastal Areas Management; 
+	* Food Security and Rural Development; 
+	* Climate Variability and Change; 
+	* Disaster Risk Reduction; 
+	* Health; 
+	* Conflict and Political Crisis, and 
+	* Infrastructure and Territorial Development.
 
 
 Thus, LaSWE implementation ensures an evidenced based information, that will support the end users and stakeholders towards 
