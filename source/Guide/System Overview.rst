@@ -18,7 +18,7 @@ LaSWE system has various components as shown in the following sections.
 
 
 
-The user can download the data from the system, and visualise it based on their preferences.
+
 
 .. toctree::
    :maxdepth: 3
