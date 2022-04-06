@@ -11,6 +11,8 @@ LaSWE system has various components as shown in the following sections.
 
 
 **1. System overview**
+*************************************
+
 The snip below shows some functionalities of the system. The user can access various features while navigating with the 
 tool-buttons shown in the screenshot below.
 
