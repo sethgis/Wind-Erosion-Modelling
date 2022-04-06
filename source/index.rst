@@ -69,12 +69,12 @@ in order to achieve sustainable enviromental management.
    :maxdepth: 3
    :caption: LaSWE System Guide
 
-   Guide/Background to WEM
+   Guide/System Overview
    Guide/Regional Layers
    Guide/Climate Erosivity Factor
    Guide/Erodible Fraction Factor
-   Guide/Soil Crust Factor
    Guide/Fractional Vegetation Cover Factor
+   Guide/Soil Crust Factor
    Guide/Soil Roughness Factor
    Guide/ILSWE
 
