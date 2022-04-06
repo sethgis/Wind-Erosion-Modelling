@@ -6,8 +6,14 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Land Susceptibility to Wind Erosion (LaSWE)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-	.. image:: ../source/_static/Images/RC2.PNG
+	.. image:: ../source/_static/Images/ilswe_reg.png
 	  
+
+
+
+
+
+
 
 The Regional Centre for Mapping of Resource for Development (RCMRD), under the Global Monitoring for Environment 
 and Security & Africa (GMES & Africa) project, with patnership with LocateIT Limited Company, implemented Earth Observation based 
