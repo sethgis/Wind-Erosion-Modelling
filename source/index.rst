@@ -70,6 +70,7 @@ in order to achieve sustainable enviromental management.
    :caption: LaSWE System Guide
 
    Guide/Background to WEM
+   Guide/Regional Layers
    Guide/Climate Erosivity Factor
    Guide/Erodible Fraction Factor
    Guide/Soil Crust Factor
