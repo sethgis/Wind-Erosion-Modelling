@@ -2,15 +2,14 @@
 
 
 ==========================================================
-Computing Soil Crust Factor - (SC) 
+Computing Soil Crust Factor - (SC) - Country Scale
 ==========================================================
-Soil surfaces with high soil crust factor tend to form a resistive layer to wind 
-erosion as a protective mechanism (Fenta et al., 2020). 
-This happens in places that are highly susceptible to wind erosion. 
+As ealier discussed, soil crust factor is the protective layer that forms on the surface 
+to prevent soil particle movement.
 
-To compute soil crust factor, please follow the illustration shown below.
+To compute soil crust factor in LaSWE, please follow the illustration shown below.
 
-.. figure:: ../_static/Images/SC.png
+.. figure:: ../_static/Images/sccountry.png
 
 
 Where:
@@ -18,12 +17,9 @@ Where:
 Cl	Sand to clay ratio 
 OM	organic matter content 
 
-The equation shows an inverse proportionality, whereby the areas 
-susceptible to wind erosion with respect to soil crust factor have 
-either little or no clay and organic content. 
+Soil Crust factor can also be compared with other layers and factors as listed in the LaSWE system.
 
-SCF is also linear in nature and the results were fuzzified to yield a 
-sensitivity map showing high and low areas of soil crust.
+
 
 
 	
