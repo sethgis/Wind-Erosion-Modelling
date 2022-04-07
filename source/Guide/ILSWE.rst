@@ -12,7 +12,7 @@ Computation and request of Wind Erosion Sensitivity can be requested as shown be
 
 
 
-.. figure:: ../_static/Images/ilswe.png
+.. figure:: ../_static/Images/ilswecont.png
 
 
 
