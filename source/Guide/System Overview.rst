@@ -8,8 +8,6 @@ LaSWE system provides the user with the libaty to access modelled outputs at a c
 information in a manner that can be understood easily, ny both users and policy makers.
 LaSWE system has various components as shown in the following sections.
 
-
-
 **1. System overview**
 *************************************
 
@@ -24,8 +22,6 @@ tool-buttons shown in the screenshot below.
 
 The functionalities include:
 
-
-
 **2. System Registration**
 *************************************
 
@@ -39,10 +35,6 @@ Registration also enables monitoring of the number of users in the system, and a
 
 A user is required to enter their details in the form shown above and register as a user. However, the system does not have restriction
 of use, incase a user has not signed in.
-
-
-
-
 
 **3. System Gallery**
 *************************************
@@ -60,7 +52,7 @@ This functionality provides the user with access to resources including
    
  .. figure:: ../_static/Images/download.png
    
-   
+  
   **5. Home Button**
 *********************************** 
 The home button leads the user to LaSWE homepage. The system homepage is linked to RCMRD website as the lead patners in implementing the 
