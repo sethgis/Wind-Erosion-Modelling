@@ -2,9 +2,9 @@
 
 
 
-********************************************************************
-Computing Vegetation Sensitivity Factor (VC) -  Country Scale
-********************************************************************
+******************************************************************************
+Computing Vegetation Sensitivity Factor (VC) -  Country Level Product
+******************************************************************************
 As ealier discussed, VC is generated from the Normalized Difference Vegetation 
 Index (NDVI) Swanker et al. (2018). Normalized Difference Vegetation Index 
 (NDVI) is a measure of vegetation health and can be computed using the equation below
