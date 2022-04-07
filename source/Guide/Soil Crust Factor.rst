@@ -1,9 +1,9 @@
 .. figure:: ../_static/Images/wind.PNG
 
 
-==========================================================
-Computing Soil Crust Factor - (SC) - Country Scale
-==========================================================
+===================================================================
+Computing Soil Crust Factor - (SC) - Country Level Product
+===================================================================
 As ealier discussed, soil crust factor is the protective layer that forms on the surface 
 to prevent soil particle movement.
 
