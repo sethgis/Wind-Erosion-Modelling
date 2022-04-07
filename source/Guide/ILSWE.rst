@@ -3,8 +3,14 @@
 *****************************************************************
 Computing Index of Land Susceptibility to Wind Erosion (ILSWE) 
 *****************************************************************
-To compute index of land susceptibility to win derosion, a user can follow the following steps
-as showed in the illustration below.
+Index of Land Susceptibility to Wind Erosion is th eultimate product, generated 
+when the wind factors are intergrated using a multiplication logic.
+The output  maps out areas that are sensitive or susceptible to 
+be affacted by soil particle movement.
+
+Computation and request of Wind Erosion Sensitivity can be requested as shown below in LaSWE.
+
+
 
 .. figure:: ../_static/Images/ilswe.png
 
