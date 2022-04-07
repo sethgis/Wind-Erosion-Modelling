@@ -1,21 +1,20 @@
 .. figure:: ../_static/Images/wind.PNG
 
-***************************************************
-Computing Soil Roughness Factor (SR)
-***************************************************
-This is the availability of features on the surface that act as barriers and 
-dissipates against the erosive force of wind. 
-Surface roughness is also defined by the availability of vegetation 
-cover that has a sheltering effect on soil particle against detachment 
-and transportation by wind. 
-In computing Soil roughness factor in the system, the user should follow the illustration as is 
-shown below.
+**********************************************************************
+Computing Surface/Soil Roughness Factor (SR) -  Country Level
+**********************************************************************
+LaSWE provides a user the ability to request SR layer, being a dynamic layer of the system, different years can also be requested.
+As is with the request of other types of layers, the selection of country, factor and year of analysis is paramount and manadatory in 
+receiving a map output. The process of requesting surface roughness factor is shown below.
 
 
 
 
 
-.. figure:: ../_static/Images/SR.png
+
+
+
+.. figure:: ../_static/Images/srcont.png
 
 
 
