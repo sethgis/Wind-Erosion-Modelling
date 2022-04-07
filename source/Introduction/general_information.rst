@@ -35,7 +35,7 @@ project. A project co-funded by the African Union (AU) and the European Union (E
 
 Contributors to the project
 ------------------------------------------
-The projects takes pride in experienced team in enviroenmental modelling, the team included:
+The project takes pride in an experienced team, especially with enviroenmental modelling, the team includes a group originating from the client side, as well as consultant side. The team include:
 Dr. Emmanuel Nkurunziza, Mr. Sendabo Degelo ,Mr. David Ongo, Mr. Ngugi Kimani, Dr. Anthony Odongo, Prof. Elias Acacuwun, Ms. Vivianne Meta, Mr. Seth Nyawacha, Mr. Derick Ongeri, Mr. Collins Asega, Ms. Risper Mutinda, Mr. Morris Mwaura, and Mr. Simon Ndarau.
 
 .. figure:: ../_static/Images/LILI.PNG
@@ -48,7 +48,7 @@ Dr. Emmanuel Nkurunziza, Mr. Sendabo Degelo ,Mr. David Ongo, Mr. Ngugi Kimani, D
 Aknowledgement
 ------------------
 Special appreciation to `RCMRD <https://www.rcmrd.org/>`_ team in their support during validation of the LaSWE products. The developers from LocateIT team also did a tremendous job, in developing the
-web application as well as spatial modelling wind erosion sensitivity in the Eastern Africa Region.
+web application as well as spatial modelling of wind erosion sensitivity in the Eastern Africa Region.
 
 License
 --------
