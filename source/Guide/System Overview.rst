@@ -58,8 +58,22 @@ Land Sensitivity to Wind Erosion system.
 
 .. figure:: ../_static/Images/home.png
 
+
+
+  **5. Download Map**
+*********************************** 
+A user is permitted to download a PNG map together with the title embended, as well as the raw datasets in form of geotiff.
+The download icon is illustrated below.
+
+
+
+.. figure:: ../_static/Images/home.png
+
+The download map would yield an output, placing the map layout with a title and a north arrow, that can be used by the user as normal maps.
+
+
+
+
+
 .. toctree::
    :maxdepth: 3
-
-
-
