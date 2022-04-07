@@ -26,13 +26,13 @@ Climate Erosivity layer in 2019 for LaSWE can be requested as shown below.
 ********************************************************************
 Erodible Fraction (EF) layer of 2019 for LaSWE can be requsted as shown below.
 
-.. figure:: ../_static/Images/EF.png
+.. figure:: ../_static/Images/EF2.png
 
 4. LaSWE - Surface Roughness Factor
 ********************************************************************
 Surface Roughness (SR) layer of 2019 can be requsted as shown below.
 
-.. figure:: ../_static/Images/SR.png
+.. figure:: ../_static/Images/SR2.png
 
 
 5. LaSWE - Vegetation Sensitivity Factor
