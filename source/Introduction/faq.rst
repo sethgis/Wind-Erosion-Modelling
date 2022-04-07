@@ -35,7 +35,7 @@ transported either through saltation, creeping and suspension.
 How many factors did you consider during modelling and why?
 ------------------------------------------------------------------------------
 We considered five major factors, which was a revision from previously 11 factors used by other scholars such as (Fryrear et al., 1994).
-After long research over the years, these factors are majorly reduced to 5 factors namely:
+Indepth research over the years led to application of 5 major factors as listed below. 
 
 	* Climate Erosivity Factor (CE)
 	* Fractional Vegetation Cover  (FVC)
@@ -48,15 +48,15 @@ Can someone include another modelling factor?
 ------------------------------------------------------------------------------
 This has to be in line with indepth research, however, we reccomend the usage of the applied factors in LaSWE system. 
  
-Do the factors change overtime or they static?
+Do the factors change overtime or aare they static?
 ------------------------------------------------------------------------------
 There are static factors which do not change, while other factors are dynamic, meaning they change overtime. 
 The climatic factors and vegetation based factors are mostly annual products.
   
-Why did you use land cover in place or land roughness ?
+Why did you use land cover in place of land roughness?
 -----------------------------------------------------------------------------
-In places where there is lack of roughness data, Land use land cover is reclassified with C fator values, that
-assigns weights for various land use land cover classes. This data can be used as a proxy tosurface roughness.
+In places where there is lack of roughness data, Land use land cover is reclassified with C factor values, that
+assigns weights for various land use land cover classes. Land cove classes can be used as a proxy to surface roughness data.
 
 
 .. figure:: ../_static/Images/wind.PNG
