@@ -39,11 +39,11 @@ Surface Roughness (SR) layer of 2019 can be requsted as shown below.
 ********************************************************************
 Vegetation Sensitivity layer of 2019 can be requsted as shown below.
 
-.. figure:: ../_static/Images/VC.png
+.. figure:: ../_static/Images/VC2.png
 
 
 6. LaSWE - Soil Crust Factor
 ********************************************************************
 Soil Crust factor layer of 2019 can be requsted as shown below.
 
-.. figure:: ../_static/Images/SC.png
+.. figure:: ../_static/Images/SC2.png
