@@ -47,3 +47,7 @@ Vegetation Sensitivity layer of 2019 can be requsted as shown below.
 Soil Crust factor layer of 2019 can be requsted as shown below.
 
 .. figure:: ../_static/Images/SC2.png
+
+
+
+
