@@ -12,7 +12,7 @@ This is achieved through development of verifiable methods on wind erosion model
 	* Soil Roughness Factor (SR) 
 	* Erodible Fraction Factor (EF)
  	* Soil Crust Factor (SC)
-The above factors also forms part of the products visualised in LaSWE system
+The above factors are the products visualised in LaSWE system
 
 Get in touch with the team
 --------------------------
