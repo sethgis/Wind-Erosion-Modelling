@@ -48,7 +48,7 @@ Can someone include another modelling factor?
 ------------------------------------------------------------------------------
 This has to be in line with indepth research, however, we reccomend the usage of the applied factors in LaSWE system. 
  
-Do the factors change overtime or aare they static?
+Do the factors change overtime?
 ------------------------------------------------------------------------------
 There are static factors which do not change, while other factors are dynamic, meaning they change overtime. 
 The climatic factors and vegetation based factors are mostly annual products.
