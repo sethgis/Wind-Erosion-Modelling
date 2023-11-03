@@ -1,7 +1,7 @@
 
-=====================
-General Information
-=====================
+===============================================================
+General Information for LASWE Admin Manual
+===============================================================
 
 The Global Monitoring for Environment and Security (GMES) & Africa Programme is a joint 
 initiative co-financed by the European Commission and the African Union Commission. 
